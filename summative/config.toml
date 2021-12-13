@@ -1,0 +1,27 @@
+baseURL = 'https://nyiyui.ca/mpm2dp-0a/summative'
+languageCode = 'en-ca'
+title = 'MPM2DP-0A Summative'
+
+theme = 'Relearn'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+xhtml = true
+[markup.highlight]
+codeFences = true
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = 'github'
