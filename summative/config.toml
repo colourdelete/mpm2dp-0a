@@ -2,10 +2,13 @@ baseURL = 'https://nyiyui.ca/mpm2dp-0a'
 languageCode = 'en-ca'
 title = 'MPM2DP-0A Summative'
 
-theme = 'Relearn'
+theme = 'RelearnNyiyui'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[params]
+mathjax = true
 
 [markup.goldmark.renderer]
 unsafe = true

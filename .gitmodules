@@ -1,3 +1,6 @@
 [submodule "summative/themes/Relearn"]
 	path = summative/themes/Relearn
 	url = git@github.com:McShelby/hugo-theme-relearn.git
+[submodule "summative/themes/RelearnNyiyui"]
+	path = summative/themes/RelearnNyiyui
+	url = git@github.com:colourdelete/RelearnNyiyui.git
