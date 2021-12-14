@@ -7,15 +7,15 @@
 ">
 <meta name=description content>
 <title>Unit 8 :: MPM2DP-0A Summative</title>
-<link href=/mpm2dp-0a/css/nucleus.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/featherlight.min.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/auto-complete.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/theme.css?1639465571 rel=stylesheet>
-<link href=/mpm2dp-0a/css/print.css?1639465571 rel=stylesheet media=print>
-<link href=/mpm2dp-0a/css/colors.css?1639465571 rel=stylesheet>
-<script src=/mpm2dp-0a/js/jquery.min.js?1639465571></script>
+<link href=/mpm2dp-0a/css/nucleus.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/featherlight.min.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/auto-complete.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/theme.css?1639500144 rel=stylesheet>
+<link href=/mpm2dp-0a/css/print.css?1639500144 rel=stylesheet media=print>
+<link href=/mpm2dp-0a/css/colors.css?1639500144 rel=stylesheet>
+<script src=/mpm2dp-0a/js/jquery.min.js?1639500144></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 <script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -35,9 +35,9 @@ Relearn
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script src=/mpm2dp-0a/js/lunr.min.js?1639465571></script>
-<script src=/mpm2dp-0a/js/auto-complete.js?1639465571></script>
-<script src=/mpm2dp-0a/js/search.js?1639465571></script>
+<script src=/mpm2dp-0a/js/lunr.min.js?1639500144></script>
+<script src=/mpm2dp-0a/js/auto-complete.js?1639500144></script>
+<script src=/mpm2dp-0a/js/search.js?1639500144></script>
 </div>
 <div id=homelinks>
 <ul>
@@ -89,6 +89,9 @@ Relearn
 </ul>
 <ul>
 <li><a href=#increasing-and-decreasing-functions-possibly-non-standard>Increasing and Decreasing Functions (possibly non-standard)</a></li>
+</ul>
+<ul>
+<li><a href=#lesson-4-getting-the-domain-and-range-of-a-function>Lesson 4: Getting the Domain and Range of a Function</a></li>
 </ul>
 </nav>
 </div>
@@ -373,7 +376,7 @@ Figure with identifier
 <td>Root Function</td>
 <td>$f(x)=\sqrt{x}$</td>
 <td><strong>TODO</strong></td>
-<td>$D\ {x\in \mathbb{R} where x \ge 0}$</td>
+<td>$D{x\in \mathbb{R} where x \ge 0}$</td>
 <td>$R{y\in \mathbb{R} where y \ge 0}$</td>
 <td>Neither</td>
 <td>None</td>
@@ -382,8 +385,53 @@ Figure with identifier
 <td>I</td>
 <td>Increasing</td>
 </tr>
+<tr>
+<td>Reciprocal Function</td>
+<td>$f(x)=\frac{1}{x}$</td>
+<td><strong>TODO</strong></td>
+<td>$D{x\in \mathbb{R} where x \ne 0}$</td>
+<td>$R{y\in \mathbb{R} where y \ne 0}$</td>
+<td>Odd</td>
+<td>$x=0$ and $y=0$</td>
+<td>None</td>
+<td>None</td>
+<td>I and III</td>
+<td>Decreasing</td>
+</tr>
+<tr>
+<td>Absolute Function</td>
+<td>$f(x)=abs(x)$</td>
+<td><strong>TODO</strong></td>
+<td>$D{x\in \mathbb{R} where x \ne 0}$</td>
+<td>$R{y\in \mathbb{R} where y \ne 0}$</td>
+<td>Odd</td>
+<td>$x=0$ and $y=0$</td>
+<td>None</td>
+<td>None</td>
+<td>I and III</td>
+<td>Decreasing</td>
+</tr>
 </tbody>
 </table>
+<h1 id=todo-chart>TODO chart</h1>
+<h2 id=lesson-4-getting-the-domain-and-range-of-a-function>Lesson 4: Getting the Domain and Range of a Function</h2>
+<p>For any function, get the parent function and put it into the following form:
+$$g(x)=af(k(x-d))+c$$</p>
+<p>Each parent function ($f(x)$) has the domain and range.
+To get the domain and range of the function ($g(x)$),
+substitute the $x$ in the domain and the $y$ in the range to
+$x-d$ and $y-c$.</p>
+<p>For example, to get the domain and range of $(x)$,
+where $f(x)=\sqrt{x}$,
+and where $g(x)=\sqrt{x-3}=af(k(x-d))+c$,
+substitute $x-d$ for $x$ and $y-c$ for $y$:
+$$d=3, d\in \mathbb{R}, x-d=x-3$$
+$$c=0, y-c=y, c\in \mathbb{R}$$
+$$D\{x+d\in \mathbb{R} | x-d\ge 0\}$$
+$$D\{x\in \mathbb{R} | x\ge 3\}$$
+$$R\{y+c\in \mathbb{R} | y-c\ge 0\}$$
+$$R\{y\in \mathbb{R} | y\ge 0\}$$
+</p>
 <footer class=footline>
 </footer>
 </main>
@@ -395,14 +443,14 @@ Figure with identifier
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/mpm2dp-0a/js/clipboard.min.js?1639465571></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639465571></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639465571></script>
-<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639465571></script>
-<script src=/mpm2dp-0a/js/featherlight.min.js?1639465571></script>
-<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639465571></script>
-<script src=/mpm2dp-0a/js/mermaid.min.js?1639465571></script>
+<script src=/mpm2dp-0a/js/clipboard.min.js?1639500144></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639500144></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639500144></script>
+<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639500144></script>
+<script src=/mpm2dp-0a/js/featherlight.min.js?1639500144></script>
+<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639500144></script>
+<script src=/mpm2dp-0a/js/mermaid.min.js?1639500144></script>
 <script>typeof mermaid!='undefined'&&typeof mermaid.mermaidAPI!='undefined'&&mermaid.mermaidAPI.initialize(Object.assign({securityLevel:"antiscript"},JSON.parse('{ "startOnLoad": true }'),{startOnLoad:!1}))</script>
-<script src=/mpm2dp-0a/js/relearn.js?1639465571></script>
+<script src=/mpm2dp-0a/js/relearn.js?1639500144></script>
 </body>
 </html>
