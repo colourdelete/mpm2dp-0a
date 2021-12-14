@@ -7,15 +7,15 @@
 ">
 <meta name=description content>
 <title>Unit 8 :: MPM2DP-0A Summative</title>
-<link href=/mpm2dp-0a/css/nucleus.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/featherlight.min.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/auto-complete.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/theme.css?1639452986 rel=stylesheet>
-<link href=/mpm2dp-0a/css/print.css?1639452986 rel=stylesheet media=print>
-<link href=/mpm2dp-0a/css/colors.css?1639452986 rel=stylesheet>
-<script src=/mpm2dp-0a/js/jquery.min.js?1639452986></script>
+<link href=/mpm2dp-0a/css/nucleus.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/featherlight.min.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/auto-complete.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/theme.css?1639454433 rel=stylesheet>
+<link href=/mpm2dp-0a/css/print.css?1639454433 rel=stylesheet media=print>
+<link href=/mpm2dp-0a/css/colors.css?1639454433 rel=stylesheet>
+<script src=/mpm2dp-0a/js/jquery.min.js?1639454433></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 <script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -35,9 +35,9 @@ Relearn
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script src=/mpm2dp-0a/js/lunr.min.js?1639452986></script>
-<script src=/mpm2dp-0a/js/auto-complete.js?1639452986></script>
-<script src=/mpm2dp-0a/js/search.js?1639452986></script>
+<script src=/mpm2dp-0a/js/lunr.min.js?1639454433></script>
+<script src=/mpm2dp-0a/js/auto-complete.js?1639454433></script>
+<script src=/mpm2dp-0a/js/search.js?1639454433></script>
 </div>
 <div id=homelinks>
 <ul>
@@ -79,6 +79,7 @@ Relearn
 <ul>
 <li><a href=#set-notation>Set Notation</a></li>
 <li><a href=#vertical-line-test>Vertical Line Test</a></li>
+<li><a href=#ensuring-a-relation-is-a-function>Ensuring a Relation is a Function</a></li>
 </ul>
 </li>
 <li><a href=#lesson-2-function-notation>Lesson 2: Function Notation</a></li>
@@ -130,7 +131,7 @@ If for every vertical line on the appropriate plane, there exists only one point
 <figure><svg id="svg-circ" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-circ-title svg-circ-desc" style="zgotmplz"><title id="svg-circ-title">circle</title><desc id="svg-circ-desc">a circle centred at the origin, which fails the vertical line test because a vertical line at x=0 goes through two points</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><circle cx="50" cy="50" r="25" stroke="#000" fill="none"/><path d="M30 0v1e2" stroke="var(--fail)"/></svg>
 <figcaption>
 <a href=#svg-circ>
-Figure
+Figure with identifier
 <code>circ</code>
 </a>:
 <span>circle</span>
@@ -138,10 +139,10 @@ Figure
 </figcaption>
 </figure>
 <p>An example of a function:</p>
-<figure><svg id="svg-lin" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-lin-title svg-lin-desc" style="zgotmplz"><title id="svg-lin-title">linear</title><desc id="svg-lin-desc">a linear equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l1e2 1e2" stroke="#000"/><path d="M30 0v1e2" stroke="var(--pass)"/></svg>
+<figure><svg id="svg-lin" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-lin-title svg-lin-desc" style="zgotmplz"><title id="svg-lin-title">linear</title><desc id="svg-lin-desc">a linear equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l50 50" stroke="#000"/><path d="M30 0v1e2" stroke="var(--pass)"/></svg>
 <figcaption>
 <a href=#svg-lin>
-Figure
+Figure with identifier
 <code>lin</code>
 </a>:
 <span>linear</span>
@@ -152,7 +153,7 @@ Figure
 <figure><svg id="svg-quad" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-quad-title svg-quad-desc" style="zgotmplz"><title id="svg-quad-title">quadratic</title><desc id="svg-quad-desc">an quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0Q50 1e2 1e2.0" stroke="#000" fill="none"/><path d="M30 0v1e2" stroke="var(--pass)"/></svg>
 <figcaption>
 <a href=#svg-quad>
-Figure
+Figure with identifier
 <code>quad</code>
 </a>:
 <span>quadratic</span>
@@ -163,11 +164,34 @@ Figure
 <figure><svg id="svg-inv-quad" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-inv-quad-title svg-inv-quad-desc" style="zgotmplz"><title id="svg-inv-quad-title">inverse quadratic</title><desc id="svg-inv-quad-desc">an inverse quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0Q1e2 50 0 1e2" stroke="#000" fill="none"/><path d="M30 0v1e2" stroke="var(--fail)"/></svg>
 <figcaption>
 <a href=#svg-inv-quad>
-Figure
+Figure with identifier
 <code>inv-quad</code>
 </a>:
 <span>inverse quadratic</span>
 <p>an inverse quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</p>
+</figcaption>
+</figure>
+<h3 id=ensuring-a-relation-is-a-function>Ensuring a Relation is a Function</h3>
+<p>To ensure a relation is a function,
+restrict its domain to make sure that all conflicts are resolved.</p>
+<p>For example, for this relation:</p>
+<figure><svg id="svg-restrict-rel" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-restrict-rel-title svg-restrict-rel-desc"><title id="svg-restrict-rel-title">a relation</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 30h1e2" stroke="#000"/><path d="M0 70h1e2" stroke="#000"/><path d="M30 0v1e2" stroke="var(--fail)"/></svg>
+<figcaption>
+<a href=#svg-restrict-rel>
+Figure with identifier
+<code>restrict-rel</code>
+</a>:
+<span>a relation</span>
+</figcaption>
+</figure>
+<p>we can restrict the domain: <code>$D\{x\in \mathbb{R} | x \ge 0\}$</code></p>
+<figure><svg id="svg-restrict-fn" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-restrict-fn-title svg-restrict-fn-desc"><title id="svg-restrict-fn-title">a relation</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 30h1e2" stroke="#000"/><path d="M0 70h1e2" stroke="#000" stroke-dasharray="2,4"/><path d="M30 0v1e2" stroke="var(--fail)"/></svg>
+<figcaption>
+<a href=#svg-restrict-fn>
+Figure with identifier
+<code>restrict-fn</code>
+</a>:
+<span>a relation</span>
 </figcaption>
 </figure>
 <h2 id=lesson-2-function-notation>Lesson 2: Function Notation</h2>
@@ -176,7 +200,7 @@ Figure
 <figure><svg id="svg-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-func-title svg-func-desc"><title id="svg-func-title">a function</title><desc id="svg-func-desc">a function for use in the example below</desc><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0Q50 1e2 1e2.0" stroke="#000" fill="none"/></svg>
 <figcaption>
 <a href=#svg-func>
-Figure
+Figure with identifier
 <code>func</code>
 </a>:
 <span>a function</span>
@@ -200,7 +224,7 @@ For example, <code>$y = |x|$</code> is even, and therefore it is symmetric on th
 <figure><svg id="svg-even-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-even-func-title svg-even-func-desc"><title id="svg-even-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M50 50V0" stroke="var(--ok)" stroke-dasharray="4,4" fill="none"/><path d="M50 50l50-50" stroke="#000" fill="none"/><path d="M50 50 0 0" stroke="#000" fill="none"/></svg>
 <figcaption>
 <a href=#svg-even-func>
-Figure
+Figure with identifier
 <code>even-func</code>
 </a>:
 <span>an even function</span>
@@ -208,11 +232,11 @@ Figure
 </figure>
 <p><strong>Odd functions (奇関数)</strong> satisfy <code>$f(x) = -f(-x)$</code>.
 For example, <code>$y = x$</code> is odd, and therefore it is mirrored on both the <code>$x$</code> and <code>$y$</code> axes.</p>
-<figure><svg id="svg-even-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-even-func-title svg-even-func-desc"><title id="svg-even-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l1e2 1e2" stroke="var(--ok)" stroke-dasharray="4,4" fill="none"/><path d="M0 1e2 1e2.0" stroke="#000" fill="none"/></svg>
+<figure><svg id="svg-odd-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-odd-func-title svg-odd-func-desc"><title id="svg-odd-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l1e2 1e2" stroke="var(--ok)" stroke-dasharray="4,4" fill="none"/><path d="M0 1e2 1e2.0" stroke="#000" fill="none"/></svg>
 <figcaption>
-<a href=#svg-even-func>
-Figure
-<code>even-func</code>
+<a href=#svg-odd-func>
+Figure with identifier
+<code>odd-func</code>
 </a>:
 <span>an even function</span>
 </figcaption>
@@ -222,11 +246,11 @@ Figure
 <p><strong>Increasing functions (増加関数)</strong> are functions where <code>$y$</code> always increases when <code>$x$</code> increases.
 In other words, the slope is always <code>$\ge 0$</code>.
 Another way to put it is that the derivative of the function never goes below 0.</p>
-<figure><svg id="svg-even-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-even-func-title svg-even-func-desc"><title id="svg-even-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 1e2 1e2.0" stroke="#000" fill="none"/></svg>
+<figure><svg id="svg-incr-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-incr-func-title svg-incr-func-desc"><title id="svg-incr-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 1e2 1e2.0" stroke="#000" fill="none"/></svg>
 <figcaption>
-<a href=#svg-even-func>
-Figure
-<code>even-func</code>
+<a href=#svg-incr-func>
+Figure with identifier
+<code>incr-func</code>
 </a>:
 <span>an even function</span>
 </figcaption>
@@ -235,11 +259,11 @@ Figure
 They are functions where <code>$y$</code> always decreases when <code>$x$</code> increases.
 In other words, the slope is always <code>$\le 0$</code>.
 Another way to put it is that the derivative of the function never goes above 0.</p>
-<figure><svg id="svg-even-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-even-func-title svg-even-func-desc"><title id="svg-even-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l1e2 1e2" stroke="#000" fill="none"><animate attributeName="rx" values="0;5;0" dur="10s" repeatCount="indefinite"/></path></svg>
+<figure><svg id="svg-decr-func" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-decr-func-title svg-decr-func-desc"><title id="svg-decr-func-title">an even function</title><defs><pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="gray" stroke-width="1"/></pattern><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="url(#smallGrid)"/><path d="M10 0H0V10" fill="none" stroke="gray" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/><g><path d="M0 50h1e2" stroke="#000" stroke-width=".5" fill="none"/><path d="M50 0v1e2" stroke="#000" stroke-width=".5" fill="none"/></g><path d="M0 0l1e2 1e2" stroke="#000" fill="none"><animate attributeName="rx" values="0;5;0" dur="10s" repeatCount="indefinite"/></path></svg>
 <figcaption>
-<a href=#svg-even-func>
-Figure
-<code>even-func</code>
+<a href=#svg-decr-func>
+Figure with identifier
+<code>decr-func</code>
 </a>:
 <span>an even function</span>
 </figcaption>
@@ -256,14 +280,14 @@ Figure
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/mpm2dp-0a/js/clipboard.min.js?1639452986></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639452986></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639452986></script>
-<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639452986></script>
-<script src=/mpm2dp-0a/js/featherlight.min.js?1639452986></script>
-<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639452986></script>
-<script src=/mpm2dp-0a/js/mermaid.min.js?1639452986></script>
+<script src=/mpm2dp-0a/js/clipboard.min.js?1639454433></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639454433></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639454433></script>
+<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639454433></script>
+<script src=/mpm2dp-0a/js/featherlight.min.js?1639454433></script>
+<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639454433></script>
+<script src=/mpm2dp-0a/js/mermaid.min.js?1639454433></script>
 <script>typeof mermaid!='undefined'&&typeof mermaid.mermaidAPI!='undefined'&&mermaid.mermaidAPI.initialize(Object.assign({securityLevel:"antiscript"},JSON.parse('{ "startOnLoad": true }'),{startOnLoad:!1}))</script>
-<script src=/mpm2dp-0a/js/relearn.js?1639452986></script>
+<script src=/mpm2dp-0a/js/relearn.js?1639454433></script>
 </body>
 </html>
