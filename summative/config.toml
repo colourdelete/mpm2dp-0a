@@ -9,6 +9,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 mathjax = true
+custom_css = [ '/css/colors.css' ]
 
 [markup.goldmark.renderer]
 unsafe = true
