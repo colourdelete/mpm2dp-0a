@@ -14,7 +14,7 @@ gulp.task("generate-service-worker", () => {
         ],
         swDest: "./public/sw.js",
         modifyURLPrefix: {
-            "": "/"
+            "": "/mpm2dp-0a/"
         },
         clientsClaim: true,
         skipWaiting: true,
