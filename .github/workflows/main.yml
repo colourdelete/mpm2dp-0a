@@ -17,14 +17,22 @@ jobs:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
+      - name: Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.90.1'
           # extended: true
 
+      - name: Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: NPM Install
+        run: npm i
+
       - name: Build
-        run: (cd summative && hugo --minify)
+        run: (cd summative && npm x -- gulp build)
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

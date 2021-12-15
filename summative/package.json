@@ -1,0 +1,18 @@
+{
+  "name": "summative",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ken Shibata <kenxshibata@gmail.com> (https://nyiyui.ca)",
+  "license": "",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-shell": "^0.8.0",
+    "workbox-build": "^6.4.2"
+  }
+}
