@@ -25,11 +25,9 @@ jobs:
 
       - name: Node
         uses: actions/setup-node@v2
-        with:
-          node-version: '14'
 
       - name: NPM Install
-        run: npm i
+        run: (cd summative && npm i)
 
       - name: Build
         run: (cd summative && npm x -- gulp build)
