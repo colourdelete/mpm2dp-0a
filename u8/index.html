@@ -7,15 +7,15 @@
 ">
 <meta name=description content>
 <title>Unit 8 :: MPM2DP-0A Summative</title>
-<link href=/mpm2dp-0a/css/nucleus.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/featherlight.min.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/auto-complete.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/theme.css?1639539509 rel=stylesheet>
-<link href=/mpm2dp-0a/css/print.css?1639539509 rel=stylesheet media=print>
-<link href=/mpm2dp-0a/css/colors.css?1639539509 rel=stylesheet>
-<script src=/mpm2dp-0a/js/jquery.min.js?1639539509></script>
+<link href=/mpm2dp-0a/css/nucleus.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/fontawesome-all.min.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/featherlight.min.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/perfect-scrollbar.min.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/auto-complete.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/theme.css?1639580167 rel=stylesheet>
+<link href=/mpm2dp-0a/css/print.css?1639580167 rel=stylesheet media=print>
+<link href=/mpm2dp-0a/css/colors.css?1639580167 rel=stylesheet>
+<script src=/mpm2dp-0a/js/jquery.min.js?1639580167></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 <script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea']}},window.addEventListener('load',a=>{document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'})})</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -35,9 +35,9 @@ Relearn
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script src=/mpm2dp-0a/js/lunr.min.js?1639539509></script>
-<script src=/mpm2dp-0a/js/auto-complete.js?1639539509></script>
-<script src=/mpm2dp-0a/js/search.js?1639539509></script>
+<script src=/mpm2dp-0a/js/lunr.min.js?1639580167></script>
+<script src=/mpm2dp-0a/js/auto-complete.js?1639580167></script>
+<script src=/mpm2dp-0a/js/search.js?1639580167></script>
 </div>
 <div id=homelinks>
 <ul>
@@ -112,8 +112,55 @@ Relearn
 <h2 id=quick-reference>Quick Reference</h2>
 <p><strong>Mapping rule</strong>: $(x, y) \rightarrow (\frac{x}{b}+h)(ay+k)$
 </p>
-<p><strong>Transformations → function</strong>: $y=af(k(x-d))+c$
-</p>
+<p><strong>Transformations for a function</strong>: $y=af(b(x-h))+k$ (or $y=af(k(x-h))+c$
+)</p>
+<p><strong>Transformations</strong>:
+For this equation, $y=af(b(x-h))+k$
+:</p>
+<ul>
+<li>Vertical Scaling (using $a$)
+<ul>
+<li>If $|a| > 1$: <abbr title="vertical stretch">vs</abbr>
+by $a$.</li>
+<li>Else if $0 &lt; |a| &lt; 1$: <abbr title="vertical compress">vc</abbr>
+by $a$.</li>
+</ul>
+</li>
+<li>Vertical Reflection (using $a$)
+<ul>
+<li>If $a &lt; 0$: reflect on x-axis.</li>
+</ul>
+</li>
+<li>Horizontal Scaling (using $b$)
+<ul>
+<li>If $|b| > 1$: <abbr title="horizontal stretch">hs</abbr>
+by $b$.</li>
+<li>Else if $0 &lt; |b| &lt; 1$: <abbr title="horizontal compress">hc</abbr>
+by $b$.</li>
+</ul>
+</li>
+<li>Horizontal Reflection (using $b$)
+<ul>
+<li>If $b &lt; 0$: reflect on y-axis.</li>
+</ul>
+</li>
+<li>Horizontal Translation (using $h$)
+<ul>
+<li>If $h > 0$: <abbr title="horizontal translation">ht</abbr>
+$h$ right.</li>
+<li>Else uf $h &lt; 0$: <abbr title="horizontal translation">ht</abbr>
+$h$ left.</li>
+</ul>
+</li>
+<li>Horizontal Translation (using $k$)
+<ul>
+<li>If $k > 0$: <abbr title="vertical translation">vt</abbr>
+$k$ up.</li>
+<li>Else uf $k &lt; 0$: <abbr title="vertical translation">vt</abbr>
+$k$ down.</li>
+</ul>
+</li>
+</ul>
 <p><strong>NOTE:</strong> Sets (e.g. domain and range) do not have repeats (e.g. $\{1, 2\}$
 ).</p>
 <p><strong>NOTE:</strong> expand the macro/function as well when doing the equation (i.e. $y=|x+2|$ not $g(x)=|x|, y=g(x+2)$
@@ -505,14 +552,14 @@ $$f^{-1}(x)=(\frac{x-4}{2})^\frac{1}{3}$$
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/mpm2dp-0a/js/clipboard.min.js?1639539509></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639539509></script>
-<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639539509></script>
-<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639539509></script>
-<script src=/mpm2dp-0a/js/featherlight.min.js?1639539509></script>
-<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639539509></script>
-<script src=/mpm2dp-0a/js/mermaid.min.js?1639539509></script>
+<script src=/mpm2dp-0a/js/clipboard.min.js?1639580167></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.min.js?1639580167></script>
+<script src=/mpm2dp-0a/js/perfect-scrollbar.jquery.min.js?1639580167></script>
+<script src=/mpm2dp-0a/js/jquery.svg.pan.zoom.js?1639580167></script>
+<script src=/mpm2dp-0a/js/featherlight.min.js?1639580167></script>
+<script src=/mpm2dp-0a/js/modernizr.custom-3.6.0.js?1639580167></script>
+<script src=/mpm2dp-0a/js/mermaid.min.js?1639580167></script>
 <script>typeof mermaid!='undefined'&&typeof mermaid.mermaidAPI!='undefined'&&mermaid.mermaidAPI.initialize(Object.assign({securityLevel:"antiscript"},JSON.parse('{ "startOnLoad": true }'),{startOnLoad:!1}))</script>
-<script src=/mpm2dp-0a/js/relearn.js?1639539509></script>
+<script src=/mpm2dp-0a/js/relearn.js?1639580167></script>
 </body>
 </html>
