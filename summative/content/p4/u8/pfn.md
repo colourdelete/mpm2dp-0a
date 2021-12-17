@@ -3,7 +3,6 @@ title = "Parent Functions"
 date = 2021-12-16T13:17:50-05:00
 draft = false
 
-[params]
 unit = 8
 lesson = 3
 +++
@@ -47,20 +46,20 @@ For example, $y = x$ is odd, and therefore it is mirrored on both the $x$ and $y
 </path>
 {{< /svg >}}
 
-{{% example %}}
+{{% eg %}}
 $f$ is odd,
 where $f(x) = x^3+4x$,
 since $-f(-x) = -((-x)^3+4(-x)) = -(-x^3-4x) = x^3+4x = f(x)$.
-{{% /example %}}
+{{% /eg %}}
 
 Functions that are neither even or odd do not meet any of the requirements.
 
-{{% example %}}
+{{% eg %}}
 $f$ is neither,
 where $f(x)=\sqrt{x}$,
 since $-f(-x) = -(\sqrt{-x}) = -\sqrt{-x} \ne f(x)$,
 and since $f(-x) = \sqrt{-x} \ne f(x)$.
-{{% /example %}}
+{{% /eg %}}
 
 # TODO: diagram
 
@@ -74,7 +73,7 @@ An **asymptote** is a line that the graph of a relation gets closer to, but neve
 In other words, the slope is always $\ge 0$.
 Another way to put it is that the *derivative of the function never goes below 0*.
 
-{{% example %}}
+{{% eg %}}
 {{% svg id="incr" title="an increasing function" %}}
 {{< svg/grid >}}
 {{< svg/origin >}}
@@ -82,14 +81,14 @@ Another way to put it is that the *derivative of the function never goes below 0
 <path d="M0,100 l100,-100" stroke="#000" fill="none" />
 {{< /unsafe >}}
 {{% /svg %}}
-{{% /example %}}
+{{% /eg %}}
 
 **Decreasing functions (減少関数)** are the oppoosite of increasing functions: <br />
 They are functions where $y$ always decreases when $x$ increases.
 In other words, the slope is always $\le 0$.
 Another way to put it is that the *derivative of the function never goes above 0*.
 
-{{% example %}}
+{{% eg %}}
 {{% svg id="decr" title="a decreasing function" %}}
 {{< svg/grid >}}
 {{< svg/origin >}}
@@ -99,7 +98,7 @@ Another way to put it is that the *derivative of the function never goes above 0
 </path>
 {{< /unsafe >}}
 {{% /svg %}}
-{{% /example %}}
+{{% /eg %}}
 
 ## Common Parent Functions
 

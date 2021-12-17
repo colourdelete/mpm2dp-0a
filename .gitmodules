@@ -4,3 +4,6 @@
 [submodule "summative/themes/RelearnNyiyui"]
 	path = summative/themes/RelearnNyiyui
 	url = git@github.com:colourdelete/RelearnNyiyui.git
+[submodule "summative/themes/xyi"]
+	path = summative/themes/xyi
+	url = git@github.com:colourdelete/xyi.git

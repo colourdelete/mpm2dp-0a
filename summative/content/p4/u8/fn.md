@@ -2,6 +2,9 @@
 title = "Functions"
 date = 2021-12-16T13:16:46-05:00
 draft = false
+
+unit = 8
+lesson = 1
 +++
 
 $f(x)$ is pronounced as "f of x", "f at x", among many others. It means to replace $f(x)$ with the definition of $f(x)$.

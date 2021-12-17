@@ -2,6 +2,8 @@
 title = "Practice"
 date = 2021-12-16T13:17:50-05:00
 draft = false
+
+unit = 8
 +++
 
 ## Question 1
@@ -15,12 +17,12 @@ $$f_4(x)=\frac{-28x}{7}$$
 $$f(x)=f_4^{-1}(f_2\circ f_3^{-1})(5x+1)$$
 {{< /unsafe >}}
 
-- {{< ree "u8/dr" >}}
-- {{< ree "u8/fmt" >}}
-- {{< ree "u8/trans" >}}
-- {{< ree "u8/fn" >}}
-- {{< ree "u8/inv" >}}
-- {{< ree "u8/relfn" >}}
+- {{< ree "p4/u8/dr" >}}
+- {{< ree "p4/u8/fmt" >}}
+- {{< ree "p4/u8/trans" >}}
+- {{< ree "p4/u8/fn" >}}
+- {{< ree "p4/u8/inv" >}}
+- {{< ree "p4/u8/relfn" >}}
 
 ### Question 1a
 
@@ -62,6 +64,6 @@ $\frac{3y}{f(2)}\ge (g\circ f)(6y)$
 {{< /unsafe >}}
 .
 
-- {{< ree "u8/abs" >}}
-- {{< ree "u8/ineq" >}}
+- {{< ree "p4/u8/abs" >}}
+- {{< ree "p4/u8/ineq" >}}
 

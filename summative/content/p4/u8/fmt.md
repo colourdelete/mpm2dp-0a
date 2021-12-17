@@ -3,7 +3,6 @@ title = "Notation for Sets"
 date = 2021-12-16T12:55:56-05:00
 draft = false
 
-[params]
 unit = 8
 lesson = 1
 +++
@@ -15,17 +14,17 @@ lesson = 1
 - {{< unsafe >}}$D\{…\}${{< /unsafe >}} defines the domain of a set.
 - {{< unsafe >}}$R\{…\}${{< /unsafe >}} defines the range of a set.
 
-{{% example id="fn" %}}
+{{% eg id="fn" %}}
 For a relation {{< unsafe >}}$S\{(0, 1), (2, 3), (4, 5)\}${{< /unsafe >}},
 {{< unsafe >}}$D_S\{0, 2, 4\}${{< /unsafe >}}, and {{< unsafe >}}$R_S\{1, 3, 5\}${{< /unsafe >}}.
 This relation *is* a function.
-{{% /example %}}
+{{% /eg %}}
 
-{{% example id="rel" %}}
+{{% eg id="rel" %}}
 For a relation {{< unsafe >}}$S\{(0, 1), (2, 1), (4, 5)\}${{< /unsafe >}},
 {{< unsafe >}}$D_S\{0, 2, 4\}${{< /unsafe >}}, and {{< unsafe >}}$R_S\{1, 1, 5\}${{< /unsafe >}}.
 This relation *is not* a function ($S(0) = S(2)$).
-{{% /example %}}
+{{% /eg %}}
 
 ## Interval Notation
 

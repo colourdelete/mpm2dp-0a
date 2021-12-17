@@ -3,7 +3,6 @@ title = "Relations and Functions"
 date = 2021-12-16T12:55:56-05:00
 draft = false
 
-[params]
 unit = 8
 lesson = 1
 +++
