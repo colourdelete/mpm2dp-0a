@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+    <head>
+	    <meta charset="utf-8">
+<title>MPM2DP-0A Summative</title>
+<link rel="canonical" href="https://nyiyui.ca/mpm2dp-0a">
+<link rel="stylesheet" href="/mpm2dp-0a/css/index.css">
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea']
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    </head>
+    <body>
+	    
+	    
+<aside id="meta">
+	<div class="meta">
+	<p>
+		<time datetime="2021-12-16 13:17:50 -0500 -0500">2021-12-16 13:17:50 -0500 -0500</time>
+
+		• <span class="word-count">97 Words</span>
+	</p>
+	
+	
+</div>
+
+	<nav aria-labelledby="main">
+		<div class="nav">
+	
+	
+	
+	<a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/">↑ (parent) Part 4</a>
+	<ul>
+	
+		
+		<li><span class="item current">Clue</span></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/">Unit 8</a></li>
+		
+	
+	</ul>
+	
+	<ul>
+	
+	
+	<span class="item">↓ (children)</a>
+	
+	</ul>
+</div>
+
+	</nav>
+</aside>
+<article id="main">
+	<h1 id="title">Clue</h1>
+	<section id="content">
+		
+
+<div id="quiz-5849316721639762088832485640" class="quiz">
+	<a href="#quiz-5849316721639762088832485640"><b>Quiz</b></a>
+	<label for="quiz-5849316721639762088832485640-input">Your Answer</label>
+	<input id="quiz-5849316721639762088832485640-input">
+	<input id="quiz-5849316721639762088832485640-submit" type="button" value="Check">
+	<a id="quiz-5849316721639762088832485640-submit">Next Part</a>
+	<script>
+const cyrb53 = function(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1>>>0);
+};
+		const correctHash = '';
+		document.getElementById("quiz-5849316721639762088832485640-submit").addEventListener("click", () => {
+			const answer = document.getElementById("quiz-5849316721639762088832485640-input").value;
+			const hash = cyrb53(answer);
+			const next = document.getElementById("quiz-5849316721639762088832485640-next");
+			if (hash == correctHash) {
+				next.style.display = "block";
+				next.href = `next/${hash}`;
+			} else {
+				next.style.display = "none";
+			}
+		});
+	</script>
+</div>
+
+
+	</section>
+</article>
+
+	    
+    </body>
+</html>
+

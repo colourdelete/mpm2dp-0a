@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Summative on MPM2DP-0A Summative</title>
-    <link>https://nyiyui.ca/mpm2dp-0a/</link>
-    <description>Recent content in Summative on MPM2DP-0A Summative</description>
+    <title>Unit 8 on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p4/u8/</link>
+    <description>Recent content in Unit 8 on MPM2DP-0A Summative</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Dec 2021 15:39:36 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p4/u8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Absolute Values</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p4/u8/abs/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/u8/abs/</guid>
       <description>The absolute value of a value is the distance from 0 on the number line. Since distances are always positive: $|x|\in \{0, \mathbb{Z}\}$ Example  To solve abosolute values, split $|x|$ to $-x$ and $+x$. $$|2x+3|\le 4$$ $$2x+3\le 4, -2x-3\le 4$$ $$2x\le 1, -2x\le 7$$ $$x\le \frac{1}{2}, x\ge \frac{-7}{2}$$ $$\frac{-7}{2}\le x\le \frac{1}{2}$$  </description>
-    </item>
-    
-    <item>
-      <title>Clue</title>
-      <link>https://nyiyui.ca/mpm2dp-0a/p4/clue/</link>
-      <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
-      
-      <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
-      <description>Quiz Your Answer Next Part  const cyrb53 = function(str, seed = 0) { let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed; for (let i = 0, ch; i 16), 2246822507) ^ Math.imul(h2 ^ (h213), 3266489909); h2 = Math.imul(h2 ^ (h216), 2246822507) ^ Math.imul(h1 ^ (h113), 3266489909); return 4294967296 * (2097151 &amp; h2) + (h10); }; const correctHash = &#39;&#39;; document.getElementById(&#34;quiz-5849316721639762088832485640-submit&#34;).addEventListener(&#34;click&#34;, () = { const answer = document.</description>
     </item>
     
     <item>
@@ -123,30 +114,6 @@ It can also be represented as a set of ordered pairs with two values, $x$ and $y
 It can also be defined as a referentially transparent and side-effect-free procedure (in computer science).
 Relation = List[Tuple[complex, complex]]
 A function is a relation where each value of $x$ corresponds with only one value of $y$.</description>
-    </item>
-    
-    <item>
-      <title>Unit 1</title>
-      <link>https://nyiyui.ca/mpm2dp-0a/u1/</link>
-      <pubDate>Mon, 13 Dec 2021 12:29:47 -0500</pubDate>
-      
-      <guid>https://nyiyui.ca/mpm2dp-0a/u1/</guid>
-      <description>Lesson 3: Midpoints A midpoint is a point that is equiditant from two points at the end of a line segment.
-$M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$ where $A(x_1, y_1)$ and $B(x_2, y_2)$
-Bisecting lines share their midpoints. For example, in parallelograms, the diagonals bisect each other.
-A right bisector is a line that bisects another line and intersects it by a $90°$ angle.
-M A B  Lesson 4: Length of Line Segments The distance formula can be used to calculate the length of a line segment on the Euclidean plane.</description>
-    </item>
-    
-    <item>
-      <title>Unit 2</title>
-      <link>https://nyiyui.ca/mpm2dp-0a/u2/</link>
-      <pubDate>Mon, 13 Dec 2021 12:29:47 -0500</pubDate>
-      
-      <guid>https://nyiyui.ca/mpm2dp-0a/u2/</guid>
-      <description>Lesson 1: Properties of Triangles Circumcentre The circumcentre is the intersection of all of the perpendicular bisectors of the sides of a triangle.
- It is equidistant from the vertices inside in acute triangles outside in obtuse triangles on $M_c$ where $c$ is the hypotenuse in right triangles  To get the circumcentre of a triangle, get the bisectors of two sides and solve the linear equations of them.
-For example, to get the circumcentre of a triangle with vertices $A(2, -3)$ $B(8, -2)$ $C(8, 6)$</description>
     </item>
     
   </channel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part 4 on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p4/</link>
+    <description>Recent content in Part 4 on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Thu, 16 Dec 2021 13:17:50 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clue</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/clue/</link>
+      <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
+      <description>Quiz Your Answer Next Part  const cyrb53 = function(str, seed = 0) { let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed; for (let i = 0, ch; i 16), 2246822507) ^ Math.imul(h2 ^ (h213), 3266489909); h2 = Math.imul(h2 ^ (h216), 2246822507) ^ Math.imul(h1 ^ (h113), 3266489909); return 4294967296 * (2097151 &amp; h2) + (h10); }; const correctHash = &#39;&#39;; document.getElementById(&#34;quiz-5849316721639762088832485640-submit&#34;).addEventListener(&#34;click&#34;, () = { const answer = document.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+    <head>
+	    <meta charset="utf-8">
+<title>MPM2DP-0A Summative</title>
+<link rel="canonical" href="https://nyiyui.ca/mpm2dp-0a">
+<link rel="stylesheet" href="/mpm2dp-0a/css/index.css">
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea']
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    </head>
+    <body>
+	    
+	    
+<aside id="meta">
+	<div class="meta">
+	<p>
+		<time datetime="2021-12-16 12:55:56 -0500 -0500">2021-12-16 12:55:56 -0500 -0500</time>
+
+		• <span class="word-count">432 Words</span>
+	</p>
+	<span class="tag w3-blue">Unit 8</span>
+	<span class="tag w3-purple">Lesson 1</span>
+</div>
+
+	<nav aria-labelledby="main">
+		<div class="nav">
+	
+	
+	<a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/fmt/">→ (next) Notation for Sets</a>
+	
+	
+	<a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/">↑ (parent) Unit 8</a>
+	<ul>
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/abs/">Absolute Values</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/dr/">Domain and Range</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/ineq/">Inequalities</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/inv/">Inverses of Functions</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/pfn/">Parent Functions</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/practice/">Practice</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/trans/">Transformations of Functions</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/fn/">Functions</a></li>
+		
+	
+		
+		<li><a class="item" href="https://nyiyui.ca/mpm2dp-0a/p4/u8/fmt/">Notation for Sets</a></li>
+		
+	
+		
+		<li><span class="item current">Relations and Functions</span></li>
+		
+	
+	</ul>
+	
+	<ul>
+	
+	
+	<span class="item">↓ (children)</a>
+	
+	</ul>
+</div>
+
+	</nav>
+</aside>
+<article id="main">
+	<h1 id="title">Relations and Functions</h1>
+	<section id="content">
+		<h2 id="definitions">Definitions</h2>
+<p>Let $x$, $y$ represent an independent, and dependent variable, respectively.</p>
+<p>A <strong>relation</strong> defines relations between two sets.</p>
+<p>It can also be represented as a set of ordered pairs with two values, $x$ and $y$.</p>
+<p>It can also be defined as a referentially transparent and side-effect-free procedure (in computer science).</p>
+<p><code>Relation = List[Tuple[complex, complex]]</code></p>
+<p>A <strong>function</strong> is a relation where each value of $x$ corresponds with only one value of $y$.</p>
+<p>The <strong>domain</strong> of a relation is the set of all values of $x$.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">domain</span>(relation):
+    <span style="color:#66d9ef">return</span> [s[<span style="color:#ae81ff">0</span>] <span style="color:#66d9ef">for</span> s <span style="color:#f92672">in</span> relation]
+</code></pre></div><p>The <strong>range</strong> of a relation is the set of all values of $y$.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">range</span>(relation):
+    <span style="color:#66d9ef">return</span> [s[<span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> s <span style="color:#f92672">in</span> relation]
+</code></pre></div><h2 id="determine-if-a-relation-is-a-function">Determine if a Relation is a Function</h2>
+<h3 id="vertical-line-test">Vertical Line Test</h3>
+<p>The <strong>vertical line test</strong> can be used to determine whether a relation is a function.
+If for every vertical line on the appropriate plane, there exists only one point where the vertical line intersects the relation, the relation is a function.</p>
+<p>An example of a relation:</p>
+<figure>
+<svg id="svg-circ" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-circ-title svg-circ-desc" style="ZgotmplZ">
+	<title id="svg-circ-title">circle</title>
+	<desc id="svg-circ-desc">a circle centred at the origin, which fails the vertical line test because a vertical line at x=0 goes through two points</desc>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<circle cx="50" cy="50" r="25" stroke="#000" fill="none"/>
+<path d="M30,0 l0 100" stroke="var(--fail)" />
+</svg>
+<figcaption>
+	<a href="#svg-circ">
+		Figure with identifier
+		<code>circ</code>
+	</a>:
+	<span>circle</span>
+	<p>a circle centred at the origin, which fails the vertical line test because a vertical line at x=0 goes through two points</p>
+</figcaption>
+</figure>
+<p>An example of a function:</p>
+<figure>
+<svg id="svg-lin" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-lin-title svg-lin-desc" style="ZgotmplZ">
+	<title id="svg-lin-title">linear</title>
+	<desc id="svg-lin-desc">a linear equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<path d="M0,0 l50 50" stroke="#000" />
+<path d="M30,0 l0 100" stroke="var(--pass)" />
+</svg>
+<figcaption>
+	<a href="#svg-lin">
+		Figure with identifier
+		<code>lin</code>
+	</a>:
+	<span>linear</span>
+	<p>a linear equation, which fails the vertical line test because a vertical line at x=0 goes through two points</p>
+</figcaption>
+</figure>
+<p>An example of a function:</p>
+<figure>
+<svg id="svg-quad" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-quad-title svg-quad-desc" style="ZgotmplZ">
+	<title id="svg-quad-title">quadratic</title>
+	<desc id="svg-quad-desc">an quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<path d="M0,0 Q50,100 100,0" stroke="#000" fill="none" />
+<path d="M30,0 l0 100" stroke="var(--pass)" />
+</svg>
+<figcaption>
+	<a href="#svg-quad">
+		Figure with identifier
+		<code>quad</code>
+	</a>:
+	<span>quadratic</span>
+	<p>an quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</p>
+</figcaption>
+</figure>
+<p>An example of a relation:</p>
+<figure>
+<svg id="svg-inv-quad" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-inv-quad-title svg-inv-quad-desc" style="ZgotmplZ">
+	<title id="svg-inv-quad-title">inverse quadratic</title>
+	<desc id="svg-inv-quad-desc">an inverse quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</desc>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<path d="M0,0 Q100,50 0,100" stroke="#000" fill="none" />
+<path d="M30,0 l0 100" stroke="var(--fail)" />
+</svg>
+<figcaption>
+	<a href="#svg-inv-quad">
+		Figure with identifier
+		<code>inv-quad</code>
+	</a>:
+	<span>inverse quadratic</span>
+	<p>an inverse quadratic equation, which fails the vertical line test because a vertical line at x=0 goes through two points</p>
+</figcaption>
+</figure>
+<h3 id="ensuring-a-relation-is-a-function">Ensuring a Relation is a Function</h3>
+<p>To ensure a relation is a function,
+restrict its domain to make sure that all conflicts are resolved.</p>
+<p>For example, for this relation:</p>
+<figure>
+<svg id="svg-restrict-rel" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-restrict-rel-title svg-restrict-rel-desc" >
+	<title id="svg-restrict-rel-title">a relation</title>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<path d="M0,30 l100 0" stroke="#000" />
+<path d="M0,70 l100 0" stroke="#000" />
+<path d="M30,0 l0 100" stroke="var(--fail)" />
+</svg>
+<figcaption>
+	<a href="#svg-restrict-rel">
+		Figure with identifier
+		<code>restrict-rel</code>
+	</a>:
+	<span>a relation</span>
+</figcaption>
+</figure>
+<p>we can restrict the domain: $D{x\in \mathbb{R} | x \ge 0}$</p>
+<figure>
+<svg id="svg-restrict-fn" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" aria-describedby="svg-restrict-fn-title svg-restrict-fn-desc" >
+	<title id="svg-restrict-fn-title">a relation</title>
+<defs>
+	<pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+		<path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<rect width="10" height="10" fill="url(#smallGrid)"/>
+		<path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="1"/>
+	</pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)" />
+<g>
+	<path d="M0 50 l100 0" stroke="#000" stroke-width="0.5px" fill="none" />
+	<path d="M50 0 l0 100" stroke="#000" stroke-width="0.5px" fill="none" />
+</g>
+<path d="M0,30 l100 0" stroke="#000" />
+<path d="M0,70 l100 0" stroke="#000" stroke-dasharray="2,4"/>
+<path d="M30,0 l0 100" stroke="var(--fail)" />
+</svg>
+<figcaption>
+	<a href="#svg-restrict-fn">
+		Figure with identifier
+		<code>restrict-fn</code>
+	</a>:
+	<span>a relation</span>
+</figcaption>
+</figure>
+
+	</section>
+</article>
+
+	    
+    </body>
+</html>
+
