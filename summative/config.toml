@@ -3,7 +3,8 @@ languageCode = 'en-ca'
 title = 'MPM2DP-0A Summative'
 
 #theme = 'RelearnNyiyui'
-theme = 'xyi'
+#theme = 'xyi'
+theme = 'xyi2'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,43 @@
+{{$id := printf "%s%d" (delimit (shuffle (seq 1 9)) "") now.UnixNano}}
+{{with (.Get "id")}}{{$id = .}}{{end}}
+
+{{$file := (.Get 0)}}
+{{$apiURL := (printf "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url%%7Cmetadata%%7Ccommonmetadata%%7Cextmetadata&format=json&titles=%s" $file)}}
+{{$data := getJSON $apiURL}}
+{{$pages := index (index $data "query") "pages"}}
+
+{{range $key, $value := $pages}}
+{{$info := index (index $value "imageinfo") 0}}
+{{$ext := index $info "extmetadata"}}
+{{$id := printf "%s-%s" $id $key}}
+<figure id="cite-{{$id}}" class="wmc">
+	<a href="#cite-{{$id}}">
+		<b>Figure</b>
+	</a><br />
+	<img src="{{index $info "url"}}" alt="{{index (index $ext "ImageDescription") "value"}}" />
+	<figcaption>
+		<div id="cite-{{$id}}-desc" class="desc">
+			<a href="#cite-{{$id}}-desc">
+				<b>Description</b>
+			</a>
+			{{index (index $ext "ImageDescription") "value"}}
+			<a href="{{index $info "descriptionshorturl"}}">(view original)</a>
+		</div>
+		<div id="cite-{{$id}}-credit" class="credit">
+			<a href="#cite-{{$id}}-credit">
+				<b>Credit</b>
+			</a>
+			{{index (index $ext "Credit") "value" | safeHTML}}
+			{{index (index $ext "Artist") "value" | safeHTML}}
+		</div>
+		<div id="cite-{{$id}}-license" class="license">
+			<a href="#cite-{{$id}}-credit">
+				<b>License</b>
+			</a>
+			<abbr title="{{index (index $ext "LicenseShortName") "value" | safeHTML}}">
+				{{index (index $ext "License") "value" | safeHTML}}
+			</abbr>
+		</div>
+	</figcaption>
+</figure>
+{{end}}
