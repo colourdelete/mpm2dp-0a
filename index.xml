@@ -8,6 +8,56 @@
     <language>en-ca</language>
     <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Circles</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u1/c/</link>
+      <pubDate>Fri, 17 Dec 2021 13:54:52 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u1/c/</guid>
+      <description>The equation of a circle with:
+ radius $r$ centre $O(h, k)$ a right-top point $(x, y)$  is $(x-h)^2+(y-k)^2=r$.
+Other forms of this equation include $r^2=x^2+y^2$ (notice how it&amp;rsquo;s similar to the Pythagorean theorem).
+To see whether a point $A$ is inside a circle, calculate $d_{AO}$ where $O=(h, k)$.
+Example  $P(-5, 9)$ is outside the circle with $r=100$:
+ $d_{PO} = \sqrt{5^2+9^2} \approx 10.3$ $d_{PO} &amp;gt; r$ $10.3 \gtrapprox 100$     r O O   Figure with identifier c :    </description>
+    </item>
+    
+    <item>
+      <title>Length of Line Segments</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u1/ls/</link>
+      <pubDate>Fri, 17 Dec 2021 13:54:52 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u1/ls/</guid>
+      <description>The distance formula can be used to calculate the length of a line segment on the Euclidean plane.
+To get the length of a line segment $\overline{\rm AB}$ $A(x_1, y_1)$ $B(x_1, y_1)$
+$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ or $d=\frac{\Delta y}{\Delta x}$
+  d A B   Figure with identifier ls :    </description>
+    </item>
+    
+    <item>
+      <title>Midpoints</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u1/mp/</link>
+      <pubDate>Fri, 17 Dec 2021 13:54:52 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u1/mp/</guid>
+      <description>A midpoint is a point that is equiditant from two points at the end of a line segment.
+$M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$ where $A(x_1, y_1)$ and $B(x_2, y_2)$
+Bisecting lines share their midpoints. For example, in parallelograms, the diagonals bisect each other.
+A right bisector is a line that bisects another line and intersects it by a $90°$ angle.
+    M A B   Figure with identifier mp :    </description>
+    </item>
+    
+    <item>
+      <title>Radicals</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u1/rad/</link>
+      <pubDate>Fri, 17 Dec 2021 13:54:52 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u1/rad/</guid>
+      <description>A radical is an unresolved root, especially one that uses the radical symbol / radix ($\sqrt{~^~}$).
+Identities Addition: $ a\sqrt{b}+c\sqrt{b}=(a+c)\sqrt{b} $ Multiplication: $ \sqrt{a}\sqrt{b}=\sqrt{ab}, a\le 0, b\le 0 $ Division: $ \frac{\sqrt{a}}{\sqrt{b}}=\sqrt{\frac{a}{b}}, a\le 0, b\lt 0 $ Convert to an exponent: $ \sqrt[a]{b}=b^\frac{1}{a} $ Rationalization To rationalize a radical, turn the root into an exponent, and then solve for the exponent:
+Example  Rationalize $\frac{1}{\sqrt{12}}-\frac{1}{\sqrt[3]{27}}$: $$\frac{1}{2\sqrt{3}}-\frac{1}{3}$$ $$\frac{\sqrt{3}}{6}-\frac{1}{3}$$ $$\frac{\sqrt{3}-2}{6}$$  A conjugate is $a-b$ for $a+b$, and must satify $(a+b)(a-b)=a^2-b^2$).</description>
+    </item>
+    
+    <item>
       <title>Absolute Values</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p4/u8/abs/</link>
       <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
@@ -22,7 +72,7 @@
       <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
-      <description>Quiz Your Answer Next Part  const cyrb53 = function(str, seed = 0) { let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed; for (let i = 0, ch; i 16), 2246822507) ^ Math.imul(h2 ^ (h213), 3266489909); h2 = Math.imul(h2 ^ (h216), 2246822507) ^ Math.imul(h1 ^ (h113), 3266489909); return 4294967296 * (2097151 &amp; h2) + (h10); }; const correctHash = &#39;&#39;; document.getElementById(&#34;quiz-5849316721639762088832485640-submit&#34;).addEventListener(&#34;click&#34;, () = { const answer = document.</description>
+      <description>Quiz The quiz requires JavaScript to validate the answer(s).  Determine $f(x)$, where $g(x)=x^2$, and $12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x$ Answer in terms of $f(x)\ge ag(b(x-h))+k$, and round decimals to two places. The answer must match this regular expression: [0-9]+(\.[0-9]+)?   What is $a$?  import quiz from &#34;/mpm2dp-0a/js/quiz.js&#34;; import cyrb53 from &#39;/mpm2dp-0a/js/cyrb53.js&#39;; document.getElementById(&#34;quiz-6971425381639798790808944116-i1&#34;).addEventListener(&#39;input&#39;, quiz(&#34;6971425381639798790808944116&#34;, 1 , cyrb53(&#34;2&#34;))); console.log(cyrb53(&#34;2&#34;));    What is $b$?  import quiz from &#34;/mpm2dp-0a/js/quiz.js&#34;; import cyrb53 from &#39;/mpm2dp-0a/js/cyrb53.</description>
     </item>
     
     <item>
@@ -126,27 +176,14 @@ A function is a relation where each value of $x$ corresponds with only one value
     </item>
     
     <item>
-      <title>Unit 1</title>
-      <link>https://nyiyui.ca/mpm2dp-0a/u1/</link>
-      <pubDate>Mon, 13 Dec 2021 12:29:47 -0500</pubDate>
-      
-      <guid>https://nyiyui.ca/mpm2dp-0a/u1/</guid>
-      <description>Lesson 3: Midpoints A midpoint is a point that is equiditant from two points at the end of a line segment.
-$M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$ where $A(x_1, y_1)$ and $B(x_2, y_2)$
-Bisecting lines share their midpoints. For example, in parallelograms, the diagonals bisect each other.
-A right bisector is a line that bisects another line and intersects it by a $90°$ angle.
-M A B  Lesson 4: Length of Line Segments The distance formula can be used to calculate the length of a line segment on the Euclidean plane.</description>
-    </item>
-    
-    <item>
       <title>Unit 2</title>
-      <link>https://nyiyui.ca/mpm2dp-0a/u2/</link>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/</link>
       <pubDate>Mon, 13 Dec 2021 12:29:47 -0500</pubDate>
       
-      <guid>https://nyiyui.ca/mpm2dp-0a/u2/</guid>
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/</guid>
       <description>Lesson 1: Properties of Triangles Circumcentre The circumcentre is the intersection of all of the perpendicular bisectors of the sides of a triangle.
- It is equidistant from the vertices inside in acute triangles outside in obtuse triangles on $M_c$ where $c$ is the hypotenuse in right triangles  To get the circumcentre of a triangle, get the bisectors of two sides and solve the linear equations of them.
-For example, to get the circumcentre of a triangle with vertices $A(2, -3)$ $B(8, -2)$ $C(8, 6)$</description>
+ It is equidistant from the vertices inside in acute triangles outside in obtuse triangles on $M_c$ where $c$ is the hypotenuse in right triangles  Figure 
+ Description  How to construct the circumcenter of a triangle. Also shows how to construct a circle through given three points.</description>
     </item>
     
   </channel>

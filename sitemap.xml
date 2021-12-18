@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/</loc>
+    <lastmod>2021-12-17T22:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u1/c/</loc>
+    <lastmod>2021-12-17T13:54:52-05:00</lastmod>
+  </url><url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u1/ls/</loc>
+    <lastmod>2021-12-17T13:54:52-05:00</lastmod>
+  </url><url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u1/mp/</loc>
+    <lastmod>2021-12-17T13:54:52-05:00</lastmod>
+  </url><url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u1/rad/</loc>
+    <lastmod>2021-12-17T13:54:52-05:00</lastmod>
+  </url><url>
     <loc>https://nyiyui.ca/mpm2dp-0a/p4/u8/abs/</loc>
     <lastmod>2021-12-16T13:17:50-05:00</lastmod>
   </url><url>
@@ -18,6 +33,9 @@
     <lastmod>2021-12-16T13:17:50-05:00</lastmod>
   </url><url>
     <loc>https://nyiyui.ca/mpm2dp-0a/p4/u8/pfn/</loc>
+    <lastmod>2021-12-16T13:17:50-05:00</lastmod>
+  </url><url>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p4/</loc>
     <lastmod>2021-12-16T13:17:50-05:00</lastmod>
   </url><url>
     <loc>https://nyiyui.ca/mpm2dp-0a/p4/u8/practice/</loc>
@@ -41,10 +59,10 @@
     <loc>https://nyiyui.ca/mpm2dp-0a/</loc>
     <lastmod>2021-12-13T12:29:47-05:00</lastmod>
   </url><url>
-    <loc>https://nyiyui.ca/mpm2dp-0a/u1/</loc>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u1/</loc>
     <lastmod>2021-12-13T12:29:47-05:00</lastmod>
   </url><url>
-    <loc>https://nyiyui.ca/mpm2dp-0a/u2/</loc>
+    <loc>https://nyiyui.ca/mpm2dp-0a/p1/u2/</loc>
     <lastmod>2021-12-13T12:29:47-05:00</lastmod>
   </url><url>
     <loc>https://nyiyui.ca/mpm2dp-0a/categories/</loc>
