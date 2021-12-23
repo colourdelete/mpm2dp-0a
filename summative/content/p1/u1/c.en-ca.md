@@ -3,6 +3,8 @@ title = "Circles"
 date = 2021-12-17T13:54:52-05:00
 draft = false
 
+chapter = 2
+section = 4
 unit = 1
 lesson = 6
 +++
@@ -10,13 +12,13 @@ lesson = 6
 The **equation of a circle** with:
 - radius $r$
 - centre $O(h, k)$
-- a right-top point $(x, y)$
 
-is $(x-h)^2+(y-k)^2=r$.
+is $(x-h)^2+(y-k)^2=r^2$.
 
 Other forms of this equation include $r^2=x^2+y^2$ (notice how it's similar to the Pythagorean theorem).
 
 To see whether a point $A$ is inside a circle, calculate $d_{AO}$ where $O=(h, k)$.
+Whether a point $A$ is inside a circle (including the border) is $d_{AO}\le r$.
 
 {{% eg id="o" %}}
 $P(-5, 9)$ is outside the circle with $r=100$:

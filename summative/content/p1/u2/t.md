@@ -1,14 +1,15 @@
 +++
-title = "Unit 2"
-date = 2021-12-13T12:29:47-05:00
+title = "Properties of Triangles"
+date = 2021-12-22T23:54:10-05:00
 draft = false
 
+chapter = 3
+section = 1
 unit = 2
+lesson = 1
 +++
 
-## Lesson 1: Properties of Triangles
-
-### Circumcentre
+## Circumcentre
 
 The **circumcentre** is the intersection of all of the perpendicular bisectors of the sides of a triangle.
 - It is equidistant from the vertices
@@ -33,7 +34,7 @@ $$x=-17/4$$
 $$y=2$$
 $$(\frac{-17}{4}, 2)$$
 
-### Centroid
+## Centroid
 
 The **centroid** is the intersection of all medians of a triangle.
 - Inside the triangle
@@ -42,7 +43,7 @@ The **centroid** is the intersection of all medians of a triangle.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/5e/Triangle.Centroid.svg)
 
-### Orthocentre
+## Orthocentre
 
 The **orthocentre** is the intersection of the altitudes of a triangle
 - inside in acute triangles
@@ -64,7 +65,7 @@ The **euler line** as the line where the circumcentre, centroid, and orthocentre
 
 {{< cite/wmc "File:Triangle.EulerLine.svg" >}}
 
-### Others
+## Others
 
 - The **altitude** is the height of a shape. In other words, it is the shortest distance of a line segment from a point to the opposite side.
 - **Concurrent** means that points are meeting at a single point.

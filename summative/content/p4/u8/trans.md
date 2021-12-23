@@ -51,11 +51,11 @@ For this equation, {{< unsafe >}}$y=af(b(x-h))+k${{< /unsafe >}}:
 - Horizontal Translation (using $h$)
 	- If $h > 0$: {{% abbr "horizontal translation" %}}ht{{% /abbr %}} $h$ right.
 	- Else uf $h < 0$: {{% abbr "horizontal translation" %}}ht{{% /abbr %}} $h$ left.
-- Horizontal Translation (using $k$)
+- Vertical Translation (using $k$)
 	- If $k > 0$: {{% abbr "vertical translation" %}}vt{{% /abbr %}} $k$ up.
 	- Else uf $k < 0$: {{% abbr "vertical translation" %}}vt{{% /abbr %}} $k$ down.
 
-An **invariant point** is a point that is unchanged by a transformation. (not exactly the same a invariants in computer science)
+An **invariant point** is a point that is unchanged by a transformation. (not exactly the same as invariants in computer science)
 
 {{< svg id="u8l7ip" title="$y=|x|$ and $y=-|x|+4$" >}}
 {{< svg/grid >}}

@@ -3,6 +3,8 @@ title = "Radicals"
 date = 2021-12-17T13:54:52-05:00
 draft = false
 
+chapter = 2
+section = -1
 unit = 1
 lesson = 2
 +++

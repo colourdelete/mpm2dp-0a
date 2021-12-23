@@ -1,19 +1,22 @@
 +++
-title = "Length of Line Segments"
+title = "線分の長さ"
 date = 2021-12-17T13:54:52-05:00
 draft = false
 
+chapter = 2
+section = 2
 unit = 1
 lesson = 4
 +++
 
-The **distance formula** can be used to calculate the length of a line segment on the Euclidean plane.
+**2点間の距離の公式**を使ってユークリッド平面上の線分の長さを求めることが出来ます。
 
-To get the length of a line segment $\overline{\rm AB}$ $A(x_1, y_1)$ $B(x_1, y_1)$
-
-$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
-or
-$d=\frac{\Delta y}{\Delta x}$
+$A(x_1, y_1)$と$B(x_1, y_1)$のとき、
+線分$\overline{\rm AB}$の長さは
+$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+か
+$\frac{\Delta y}{\Delta x}$
+です。
 
 {{< svg id="ls" >}}
 	<path d="M25,50 L75 50" stroke="#000" />

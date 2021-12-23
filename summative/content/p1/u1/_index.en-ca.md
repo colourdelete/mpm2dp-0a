@@ -3,6 +3,7 @@ title = "Unit 1"
 date = 2021-12-13T12:29:47-05:00
 draft = false
 
+chapter = 2
 unit = 1
 +++
 
@@ -16,4 +17,4 @@ unit = 1
 
 ## Application of Formulas
 
-To get whether a triangle is a right triangle, you can get the slopes of the three sides and see if there is a pair that is  reciprocal to each other (i.e. $x=\frac{-1}{y}$).
+To get whether a triangle is a right triangle, you can get the slopes of the three sides and see if there is a pair that is perpendicular to each other (i.e. $a=\frac{-1}{b}$).

@@ -1,33 +1,43 @@
 baseURL = 'https://nyiyui.ca/mpm2dp-0a'
-languageCode = 'en-ca'
-title = 'MPM2DP-0A Summative'
 
-#theme = 'RelearnNyiyui'
 theme = 'xyi'
 #theme = 'xyi2'
 
+enableGitInfo = true
+
+defaultContentLanguage = 'en-ca'
+
+[languages]
+  [languages.en-ca]
+    title = 'MPM2DP-0A Summative'
+    languageName = 'English'
+  [languages.ja-jp]
+    title = 'MPM2DP-0A　期末課題'
+    languageName = '日本語'
+
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [params]
-mathjax = true
-custom_css = [ '/css/colors.css' ]
+  mathjax = true
+  custom_css = [ '/css/colors.css' ]
 
 [markup.goldmark.renderer]
-unsafe = true
-xhtml = true
-[markup.highlight]
-codeFences = true
+  unsafe = true
+  xhtml = true
 
-[markup.goldmark.extensions]
-definitionList = true
-footnote = true
-linkify = true
-strikethrough = true
-table = true
-taskList = true
-typographer = true
+  [markup.highlight]
+    codeFences = true
 
-[markup.goldmark.parser]
-autoHeadingID = true
-autoHeadingIDType = 'github'
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  
+  [markup.goldmark.parser]
+    autoHeadingID = true
+    autoHeadingIDType = 'github'
