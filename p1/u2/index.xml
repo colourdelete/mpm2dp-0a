@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unit 2 on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/</link>
+    <description>Recent content in Unit 2 on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p1/u2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Properties of Quadrilaterals</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/q/</link>
+      <pubDate>Thu, 23 Dec 2021 17:30:22 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/q/</guid>
+      <description>Joining the midpoint of adjacent sides of any quadrilateral forms a parallelogram.
+The line segment joining the midpoints</description>
+    </item>
+    
+    <item>
+      <title>Properties of Triangles</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/t/</link>
+      <pubDate>Wed, 22 Dec 2021 23:54:10 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/t/</guid>
+      <description>Circumcentre The circumcentre is the intersection of all of the perpendicular bisectors of the sides of a triangle.
+ It is equidistant from the vertices inside in acute triangles outside in obtuse triangles on $M_c$ where $c$ is the hypotenuse in right triangles  Figure 
+ Description  How to construct the circumcenter of a triangle. Also shows how to construct a circle through given three points. Made with &amp;lt;a href=&amp;#34;https://en.</description>
+    </item>
+    
+  </channel>
+</rss>

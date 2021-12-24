@@ -4,16 +4,16 @@
     <title>Part 4 on MPM2DP-0A Summative</title>
     <link>https://nyiyui.ca/mpm2dp-0a/p4/</link>
     <description>Recent content in Part 4 on MPM2DP-0A Summative</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Thu, 16 Dec 2021 13:17:50 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p4/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://nyiyui.ca/mpm2dp-0a/p4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clue</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p4/clue/</link>
       <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
-      <description>Quiz The quiz requires JavaScript to validate the answer(s).  Determine $f(x)$, where $g(x)=x^2$, and $12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x$ Answer in terms of $f(x)\ge ag(b(x-h))+k$, and round decimals to two places. The answer must match this regular expression: [0-9]+(\.[0-9]+)?   What is $a$?  import quiz from &#34;/mpm2dp-0a/js/quiz.js&#34;; import cyrb53 from &#39;/mpm2dp-0a/js/cyrb53.js&#39;; document.getElementById(&#34;quiz-6971425381639798790808944116-i1&#34;).addEventListener(&#39;input&#39;, quiz(&#34;6971425381639798790808944116&#34;, 1 , cyrb53(&#34;2&#34;))); console.log(cyrb53(&#34;2&#34;));    What is $b$?  import quiz from &#34;/mpm2dp-0a/js/quiz.js&#34;; import cyrb53 from &#39;/mpm2dp-0a/js/cyrb53.</description>
+      <description>Quiz The quiz requires JavaScript to validate the answer(s).  Determine $f(x)$, where $g(x)=x^2$, and $12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x$
+Answer in terms of $f(x)\ge ag(b(x-h))+k$, and round decimals to two places. The answer must match this regular expression: [0-9]+(.[0-9]+)?
+  What is $a$?    What is $b$?    What is $h$?    What is $k$?    Final answer code: enter an answer import { quiz, quizzes } from &#34;</description>
     </item>
     
   </channel>
