@@ -7,13 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Practice</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/practice/</link>
+      <pubDate>Sun, 02 Jan 2022 15:57:18 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/practice/</guid>
+      <description>Question 1 Depends on:
+  p1/u2/t    p1/u2/vt    $s\triangle ABC$e has vertices $sA(0, 0)$e , $sB(22, 13)$e , and $sC(14, 14)$e .
+Note: truncate ($s(\lambda x.\lfloor x\rfloor)$e ) to 5 decimal digits and remove prefix and suffix zeroes. For example, $s\frac{1}{3}$e would become $s0.33333$e .
+Question 1a Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine the circumcentre of $s\triangle ABC$e , in the form $sO(\frac{a}{b}, \frac{c}{d})$e , where $sO$e is the circumcentre.</description>
+    </item>
+    
+    <item>
+      <title>Clue</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/clue/</link>
+      <pubDate>Sat, 01 Jan 2022 14:50:35 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/clue/</guid>
+      <description> Quiz
+ The quiz requires JavaScript to validate the answer(s).  body   q  The SHA-256 hash of the answer is ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb.   Final answer code: enter an answer import { quiz, quizzes } from &#34;/mpm2dp-0a/js/quiz.js&#34;; const quiz_7586214931641162332234374820_i1 = document.getElementById(&#34;quiz-7586214931641162332234374820-i1&#34;); quiz_7586214931641162332234374820_i1.addEventListener(&#39;input&#39;, quiz(&#34;7586214931641162332234374820&#34;, 1 , &#34;ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb&#34;)); const quiz_7586214931641162332234374820 = [ quiz_7586214931641162332234374820_i1, ]; quiz_7586214931641162332234374820_i1.addEventListener(&#39;input&#39;, quizzes(quiz_7586214931641162332234374820, document.getElementById(&#34;quiz-7586214931641162332234374820-total&#34;)));   </description>
+    </item>
+    
+    <item>
+      <title>Properties of Circles</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/c/</link>
+      <pubDate>Wed, 29 Dec 2021 02:25:19 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/c/</guid>
+      <description>Diameters of circles intersect at the centre of the circle.
+Chords are line segments that join 2 points on curves (e.g. circles).
+Right bisectors of chords pass through the centre of circles.
+There is only one circle that passes through three non-colinear points.
+A circumference of a triangle is a circle that passes through all three vertices of a triangle.</description>
+    </item>
+    
+    <item>
+      <title>Verify Properties of Triangles</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/vt/</link>
+      <pubDate>Tue, 28 Dec 2021 23:40:26 +0000</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/vt/</guid>
+      <description>The midpoint, length of line segment, and slope formulas can be used to verify properties of triangles (and sometimes in many ways!).
+There are some shortcuts for some calculations involving horizontal and vertical lines.</description>
+    </item>
+    
+    <item>
       <title>Properties of Quadrilaterals</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/q/</link>
       <pubDate>Thu, 23 Dec 2021 17:30:22 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p1/u2/q/</guid>
-      <description>Joining the midpoint of adjacent sides of any quadrilateral forms a parallelogram.
-The line segment joining the midpoints</description>
+      <description>The diagnoals of a parallelogram bisects each other.
+Joining the midpoint of adjacent sides of any quadrilateral forms a parallelogram.
+You can use the formulas for lengths, midpoints and slopes to verify properties of quadrilaterals, just like triangles.</description>
     </item>
     
     <item>
@@ -92,9 +139,10 @@ Example  Rationalize $\frac{1}{\sqrt{12}}-\frac{1}{\sqrt[3]{27}}$: $$\frac{1}{2\
       <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
-      <description>Quiz The quiz requires JavaScript to validate the answer(s).  Determine $f(x)$, where $g(x)=x^2$, and $12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x$
+      <description>Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine $f(x)$, where $g(x)=x^2$, and $12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x$
 Answer in terms of $f(x)\ge ag(b(x-h))+k$, and round decimals to two places. The answer must match this regular expression: [0-9]+(.[0-9]+)?
-  What is $a$?    What is $b$?    What is $h$?    What is $k$?    Final answer code: enter an answer import { quiz, quizzes } from &#34;</description>
+  What is $a$?  The SHA-256 hash of the answer is d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.   What is $b$?  The SHA-256 hash of the answer is 4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce.   What is $h$?</description>
     </item>
     
     <item>
@@ -147,7 +195,8 @@ $$f^{-1}(x)=(\frac{x-4}{2})^\frac{1}{3}$$ </description>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/u8/practice/</guid>
       <description>Question 1 Consider this function:  $$f_2(x)=\frac{1}{x}$$ $$f_3(x)=x-3$$ $$f_4(x)=\frac{-28x}{7}$$ $$f(x)=f_4^{-1}(f_2\circ f_3^{-1})(5x+1)$$   p4/u8/dr    p4/u8/fmt    p4/u8/trans    p4/u8/fn    p4/u8/inv    p4/u8/relfn    Question 1a Get the domain and range for $f(x)$, in both set and interval notation.
-Quiz The quiz requires JavaScript to validate the answer(s).  Determine the domain for $f(x)$, in set notation, in the form $D\{x\in\mathbb{R}|x\ne a\}$.</description>
+Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine the domain for $f(x)$, in set notation, in the form $D\{x\in\mathbb{R}|x\ne a\}$.</description>
     </item>
     
     <item>
