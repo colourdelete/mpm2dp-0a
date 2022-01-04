@@ -5,6 +5,7 @@ draft = false
 
 unit = 8
 lesson = 5
+chapter = 1
 +++
 
 The **absolute value** of a value is the distance from 0 on the number line.

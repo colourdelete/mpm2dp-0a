@@ -41,6 +41,36 @@ $sc$e
 
 $sd$e
 18
+
+
+
+1. Get the midpoints of
+{{<mi>}}\overline{AB}{{</mi>}},
+{{<mi>}}\overline{BC}{{</mi>}}, and
+{{<mi>}}\overline{AC}{{</mi>}}:
+{{<md>}}M_{BC}=(18, 13.5){{</md>}}
+{{<md>}}M_{AC}=(7, 7){{</md>}}
+2. Get the slopes of
+{{<mi>}}\overline{BC}{{</mi>}}, and
+{{<mi>}}\overline{AC}{{</mi>}}:
+{{<md>}}m_{BC}=\frac{-1}{8}{{</md>}}
+{{<md>}}m_{AC}=1{{</md>}}
+3. Get the 2 equations of the perpendicular bisectors:
+{{<md>}}\frac{-1}{m_{BC}}=8{{</md>}}
+{{<md>}}y=8x+b{{</md>}}
+{{<md>}}13.5=144+b{{</md>}}
+{{<md>}}b=-130.5{{</md>}}
+{{<md>}}y=8x-130.5{{</md>}}
+{{<md>}}\frac{1}{m_{AC}}=-1{{</md>}}
+{{<md>}}y=-x+b{{</md>}}
+{{<md>}}7=-7+b{{</md>}}
+{{<md>}}b=14{{</md>}}
+{{<md>}}y=-x+14{{</md>}}
+4. Solve the 2 equations:
+{{<md>}}8x-130.5=-x+14{{</md>}}
+{{<md>}}x=\frac{289}{18}{{</md>}}
+{{<md>}}y=-x+14=\frac{-37}{18}{{</md>}}
+{{<md>}}O(\frac{289}{18}, \frac{-37}{18}){{</md>}}
 {{< /quiz >}}
 
 ## Question 1b

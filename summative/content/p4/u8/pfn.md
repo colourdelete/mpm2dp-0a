@@ -5,6 +5,8 @@ draft = false
 
 unit = 8
 lesson = 3
+chapter = 1
+section = 3
 +++
 
 **Even functions** satisfy $f(x) = f(-x)$.

@@ -5,6 +5,8 @@ draft = false
 
 unit = 8
 lesson = 1
+chapter = 1
+section = 1
 +++
 
 $f(x)$ is pronounced as "f of x", "f at x", among many others. It means to replace $f(x)$ with the definition of $f(x)$.

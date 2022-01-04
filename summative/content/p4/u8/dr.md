@@ -5,6 +5,8 @@ draft = false
 
 unit = 8
 lesson = 4
+chapter = 9
+section = 4
 +++
 
 For any function $g(x)$, get the parent function $f(x)$ and put it into the following form:

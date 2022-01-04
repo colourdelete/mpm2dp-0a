@@ -4,7 +4,9 @@ date = 2021-12-16T13:17:50-05:00
 draft = false
 
 unit = 8
-lesson = 6
+lesson = "7,8"
+chapter = 1
+section = "6~8"
 +++
 For functions of the form $g(x)=af(x-d)+c$,
 constants $a$, $d$, and $c$ change the shape or location of the graph of $g(x)$.

@@ -5,17 +5,15 @@ draft = false
 
 unit = 8
 lesson = -1
+chapter = 1
+section = -1
 +++
 
 ## Question 1
 
 Consider this function:
 {{< unsafe >}}
-<!--$$f(x)=\frac{-27}{(7^{-1})(x-(-3)^3)}$$-->
-$$f_2(x)=\frac{1}{x}$$
-$$f_3(x)=x-3$$
-$$f_4(x)=\frac{-28x}{7}$$
-$$f(x)=f_4^{-1}(f_2\circ f_3^{-1})(5x+1)$$
+$$f(x)=\frac{-27}{(7^{-1})(x-(-3)^3)}$$
 {{< /unsafe >}}
 
 - {{< ree "p4/u8/dr" >}}
@@ -36,16 +34,28 @@ in set notation,
 in the form $D\\{x\in\mathbb{R}|x\ne a\\}$.
 
 $a$
-unset
+-27
+
+
+{{<md>}}f(x)=\frac{-27}{(7^{-1})(x-(-3)^3)}{{</md>}}
+{{<md>}}g(x)=\frac{1}{x}{{</md>}}
+{{<md>}}f(x)=-189g(x+27){{</md>}}
+{{<md>}}f(x)=af(b(x-h))+k{{</md>}}
+{{<md>}}D\\{x\in\mathbb{R}|x-h\ne 0\\}{{</md>}}
+{{<md>}}D\\{x\in\mathbb{R}|x+27\ne 0\\}{{</md>}}
+{{<md>}}D\\{x\in\mathbb{R}|x\ne -27\\}{{</md>}}
 {{< /quiz >}}
 
 ### Question 1b
 
 {{< quiz id="1b" >}}
-Is $f(x)$ a function?
+Is $f(x)$ a function? In other words, is $f(x)$ injective?
 
-(enter either yes or no)
+(enter either <code>yes</code> or <code>no</code>)
 yes
+
+
+The parent function $g(x)=\frac{1}{x}$ is injective, thus $f(x)$ is injective.
 {{< /quiz >}}
 
 ### Question 1c
@@ -55,28 +65,44 @@ How is $g(x)$ related to $f(x)$,
 where $g(x)=\frac{1}{x}$?
 (For numerical answers, round to 2 decimal places and remove unnecessary spaces before and after. For boolean answers, type either "yes" or "no".)
 
-{{< abbr2 "vertical scaling" "vs" >}} 189
+{{< abbr2 "vertical scaling" "vs" >}}189
 
-{{< abbr2 "vertical reflection" "vr" >}} yes
+{{< abbr2 "vertical reflection" "vr" >}}yes
 
-{{< abbr2 "horizontal scaling" "vs" >}} 1
+{{< abbr2 "horizontal scaling" "vs" >}}1
 
-{{< abbr2 "horizontal reflection" "vr" >}} no
+{{< abbr2 "horizontal reflection" "vr" >}}no
 
-{{< abbr2 "horizontal translation" "ht" >}} -27
+{{< abbr2 "horizontal translation" "ht" >}}-27
 
-{{< abbr2 "vertical translation" "vt" >}} 0
+{{< abbr2 "vertical translation" "vt" >}}0
+
+
+
+From the explanation of question 1a:
+{{<md>}}g(x)=\frac{1}{x}{{</md>}}
+{{<md>}}f(x)=-189g(x+27){{</md>}}
+{{<md>}}a=-189{{</md>}}
+{{<md>}}b=1{{</md>}}
+{{<md>}}h=-27{{</md>}}
+{{<md>}}k=0{{</md>}}
 {{< /quiz >}}
 
 ## Question 2
 
-# TODO
-
 {{< quiz id="q2" >}}
-Simplify and graph $y$ on a number line,
-where {{< unsafe >}} $f(x)=x^3$,
-$g(x)=|x|$, and
-$\frac{3y}{f(2)}\ge (g\circ f)(6y)$ {{< /unsafe >}}.
+What is the value of (g\circ f)(12),
+where
+{{<mi>}}f(x)=2x+2{{</mi>}}, and
+{{<mi>}}g(x)=2x^2{{</mi>}}?
+
+{{<mi>}}(g\circ f)(12){{</mi>}}1352
+
+
+
+{{<md>}}(g\circ f)(x)=g(f(x)){{</md>}}
+{{<md>}}f(12)=26{{</md>}}
+{{<md>}}g(26)=1352{{</md>}}
 {{< /quiz >}}
 
 - {{< ree "p4/u8/abs" >}}

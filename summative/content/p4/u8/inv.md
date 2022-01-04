@@ -5,6 +5,8 @@ draft = false
 
 unit = 8
 lesson = 6
+chapter = 1
+section = 5
 +++
 
 The **inverse of a function** reverses the operation that the function does.

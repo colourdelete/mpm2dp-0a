@@ -5,6 +5,8 @@ draft = false
 
 unit = 8
 lesson = 1
+chapter = 1
+section = 1
 +++
 
 ## Set Notation
