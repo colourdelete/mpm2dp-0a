@@ -7,6 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Clue</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/clue/</link>
+      <pubDate>Tue, 04 Jan 2022 14:50:35 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/clue/</guid>
+      <description> Quiz
+ The quiz requires JavaScript to validate the answer(s).  body   q  The SHA-256 hash of the answer is ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb.   Final answer code: enter an answer  Explanation exp  import { quiz, quizzes } from &#34;/mpm2dp-0a/js/quiz.js&#34;; const page = &#39;https:\/\/nyiyui.ca\/mpm2dp-0a\/p2\/clue\/&#39;; const quiz_clue_i1 = document.getElementById(&#34;quiz-clue-i1&#34;); quiz_clue_i1.addEventListener(&#39;input&#39;, quiz(&#34;clue&#34;, 1 , &#34;ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb&#34;, page)); const quiz_clue = [ quiz_clue_i1, ]; quiz_clue_i1.addEventListener(&#39;input&#39;, quizzes(quiz_clue, document.getElementById(&#34;quiz-clue-total&#34;), &#34;clue&#34;, page));   </description>
+    </item>
+    
+    <item>
+      <title>Graphing Quadratic Relations</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/trans/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/trans/</guid>
+      <description>All quadratic relations can be made into the form $sy=af(b(x-h))+k$e 1.
+Then, to graph the relation, apply these transformations in order1:
+Transformations: For this equation, $y=af(b(x-h))+k$ :
+ Vertical Scaling (using $a$)  If $|a| &amp;gt; 1$: vs by $|a|$. Else if $0 &amp;lt; |a| &amp;lt; 1$: vc by $|a|$.   Vertical Reflection (using $a$)  If $a &amp;lt; 0$: reflect on x-axis.   Horizontal Scaling (using $b$)  If $|b| &amp;gt; 1$: hs by $\frac{1}{|b|}$.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Rule</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/map/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/map/</guid>
+      <description>The mapping rule for quadratic relations is $s(x, y) \rightarrow (\frac{x}{b}+h)(ay+k)$e .
+To use it,
+ list 5+ key points from the parent function, then using the mapping notations, determine the new coordinates of the key points, then plot the new points.  </description>
+    </item>
+    
+    <item>
+      <title>Negative and Zero Exponents</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</guid>
+      <description>$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
+    </item>
+    
+    <item>
+      <title>Non-Linear Relations</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/nl/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/nl/</guid>
+      <description>The independent variable is the variables that is controlled before the trial begins, and the dependennt variable is the one that is measured during the trial. It is usually affected by the independent variable.
+Non-linear relations do not follow a straight line when graphed.
+The curve of best fit is a smooth curve drawn to approximate the general path or trend of a scatter plot.
+Example  In the following figure, the blue line is one curve of best fit (4th degree polynomial).</description>
+    </item>
+    
+    <item>
+      <title>Practice</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</guid>
+      <description>Question 1 Quiz
+ The quiz requires JavaScript to validate the answer(s).  Consider $st=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
+    </item>
+    
+    <item>
+      <title>Quadratic Relation</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/qr/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/qr/</guid>
+      <description>Quadratic relations are relations whose equatio is in the form $sy=ax^2+bx+c$e where $sa\in \mathbb{R}$e , $sb\in \mathbb{R}$e , $sc\in \mathbb{R}$e , and $sa\ne 0$e .
+Parabolas are quadratic relations which are U-shaped and symmetrical.
+The vertex of quadratic relations are where:
+ the curve changes direction, and is either the maximum of minimum (in terms of $sy$e ) point in the relation.  The axis of symmetry if the line that divides a digure into 2 congruent parts.</description>
+    </item>
+    
+    <item>
+      <title>Zeroes Form</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</guid>
+      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e </description>
+    </item>
+    
+    <item>
       <title>Practice</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p1/u2/practice/</link>
       <pubDate>Sun, 02 Jan 2022 15:57:18 -0500</pubDate>
@@ -25,8 +110,8 @@ Question 1a Quiz
       <pubDate>Sat, 01 Jan 2022 14:50:35 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p1/clue/</guid>
-      <description> Quiz
- The quiz requires JavaScript to validate the answer(s).  body   q  The SHA-256 hash of the answer is ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb.   Final answer code: enter an answer import { quiz, quizzes } from &#34;/mpm2dp-0a/js/quiz.js&#34;; const quiz_7586214931641162332234374820_i1 = document.getElementById(&#34;quiz-7586214931641162332234374820-i1&#34;); quiz_7586214931641162332234374820_i1.addEventListener(&#39;input&#39;, quiz(&#34;7586214931641162332234374820&#34;, 1 , &#34;ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb&#34;)); const quiz_7586214931641162332234374820 = [ quiz_7586214931641162332234374820_i1, ]; quiz_7586214931641162332234374820_i1.addEventListener(&#39;input&#39;, quizzes(quiz_7586214931641162332234374820, document.getElementById(&#34;quiz-7586214931641162332234374820-total&#34;)));   </description>
+      <description>Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine $sM_{AB}$e where $sA(1, (\frac{2}{\sqrt{5}-\sqrt{3}}-\sqrt{3})^2)$e , and $sB(10, \frac{\sqrt{5}}{\sqrt{5}-\sqrt{19^0}+1})$e , in the form $sM_{AB}(\frac{a}{b}, \frac{c}{d})$e .   $sa$e  The SHA-256 hash of the answer is 4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8.   $sb$e  The SHA-256 hash of the answer is d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.   $sc$e  The SHA-256 hash of the answer is e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683.   $sd$e  The SHA-256 hash of the answer is d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.</description>
     </item>
     
     <item>
@@ -194,7 +279,7 @@ $$f^{-1}(x)=(\frac{x-4}{2})^\frac{1}{3}$$ </description>
       <pubDate>Thu, 16 Dec 2021 13:17:50 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/u8/practice/</guid>
-      <description>Question 1 Consider this function:  $$f_2(x)=\frac{1}{x}$$ $$f_3(x)=x-3$$ $$f_4(x)=\frac{-28x}{7}$$ $$f(x)=f_4^{-1}(f_2\circ f_3^{-1})(5x+1)$$   p4/u8/dr    p4/u8/fmt    p4/u8/trans    p4/u8/fn    p4/u8/inv    p4/u8/relfn    Question 1a Get the domain and range for $f(x)$, in both set and interval notation.
+      <description>Question 1 Consider this function: $$f(x)=\frac{-27}{(7^{-1})(x-(-3)^3)}$$   p4/u8/dr    p4/u8/fmt    p4/u8/trans    p4/u8/fn    p4/u8/inv    p4/u8/relfn    Question 1a Get the domain and range for $f(x)$, in both set and interval notation.
 Quiz
  The quiz requires JavaScript to validate the answer(s).  Determine the domain for $f(x)$, in set notation, in the form $D\{x\in\mathbb{R}|x\ne a\}$.</description>
     </item>
@@ -242,6 +327,16 @@ It can also be represented as a set of ordered pairs with two values, $x$ and $y
 It can also be defined as a referentially transparent and side-effect-free procedure (in computer science).
 Relation = List[Tuple[complex, complex]]
 A function is a relation where each value of $x$ corresponds with only one value of $y$.</description>
+    </item>
+    
+    <item>
+      <title>Clue</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/clue/</link>
+      <pubDate>Mon, 13 Dec 2021 12:29:47 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/clue/</guid>
+      <description>Quiz
+ The quiz requires JavaScript to validate the answer(s).  Enter the final answer codes for all of the clues.   Part 1  The SHA-256 hash of the answer is fc860c49c73353b6d71d993adc6b3bc7fb63f89f0d9f61984e60c84050584c12.   Part 2  The SHA-256 hash of the answer is 32e4caaf6344aea2380a7f150312f351897e2dc23de446b4e9c418298d1cbc97.   Part 3  The SHA-256 hash of the answer is 32e4caaf6344aea2380a7f150312f351897e2dc23de446b4e9c418298d1cbc97.   Part 4  The SHA-256 hash of the answer is 390b8dfc5d118a276c2f1c2f3475f98256a0909f4a0b0c727dcc2c9b75a6a6af.</description>
     </item>
     
   </channel>

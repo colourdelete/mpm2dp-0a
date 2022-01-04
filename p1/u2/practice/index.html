@@ -49,8 +49,8 @@
   2022-01-02 15:57:18 -0500 -0500
 </time>
 
-    • <span class="word-count">600 words</span>
-    • <span class="reading-time">3 minutes to read</span>
+    • <span class="word-count">718 words</span>
+    • <span class="reading-time">4 minutes to read</span>
   </p>
   
 <span class="position">
@@ -125,7 +125,7 @@
 	
 	<section id="build-info">
 		Built using <a href="https://gohugo.io">Hugo</a>
-and commit <abbr title="45c3382bc866b28cdf8239a27673177bfeb1d5a1">45c3382</abbr>.
+and commit <abbr title="7434807fa6d038aea307d04ebf585cd1742fee5e">7434807</abbr>.
 
 	</section>
 	
@@ -169,7 +169,10 @@ $sC(14, 14)$e
  would become $s0.33333$e
 .</p>
 <h2 id="question-1a">Question 1a</h2>
-  
+ 
+
+
+
 <div id="quiz-1a" class="quiz">
   <a href="#quiz-1a"><b>Quiz</b></a><br />
   <noscript> The quiz requires JavaScript to validate the answer(s). </noscript>
@@ -243,50 +246,94 @@ is the circumcentre.
     
   </ol>
   Final answer code: <code><span id="quiz-1a-total" role="status"><i>enter an answer</i></span></code>
+  
+    <details>
+    <summary>Explanation</summary>
+      <ol>
+<li>Get the midpoints of
+$s\overline{AB}$e
+,
+$s\overline{BC}$e
+, and
+$s\overline{AC}$e
+:
+$$sM_{BC}=(18, 13.5)$$e</li>
+</ol>
+<p>$$sM_{AC}=(7, 7)$$e</p>
+<ol start="2">
+<li>Get the slopes of
+$s\overline{BC}$e
+, and
+$s\overline{AC}$e
+:
+$$sm_{BC}=\frac{-1}{8}$$e</li>
+</ol>
+<p>$$sm_{AC}=1$$e</p>
+<ol start="3">
+<li>Get the 2 equations of the perpendicular bisectors:
+$$s\frac{-1}{m_{BC}}=8$$e</li>
+</ol>
+<p>$$sy=8x+b$$e</p>
+<p>$$s13.5=144+b$$e</p>
+<p>$$sb=-130.5$$e</p>
+<p>$$sy=8x-130.5$$e</p>
+<p>$$s\frac{1}{m_{AC}}=-1$$e</p>
+<p>$$sy=-x+b$$e</p>
+<p>$$s7=-7+b$$e</p>
+<p>$$sb=14$$e</p>
+<p>$$sy=-x+14$$e</p>
+<ol start="4">
+<li>Solve the 2 equations:
+$$s8x-130.5=-x+14$$e</li>
+</ol>
+<p>$$sx=\frac{289}{18}$$e</p>
+<p>$$sy=-x+14=\frac{-37}{18}$$e</p>
+<p>$$sO(\frac{289}{18}, \frac{-37}{18})$$e</p>
+
+    </details>
+  
   <script type="module">
     import { quiz, quizzes } from "/mpm2dp-0a/js/quiz.js";
+
+    const page = 'https:\/\/nyiyui.ca\/mpm2dp-0a\/p1\/u2\/practice\/';
 
     
     
     
-    
-      
+       
       
     
     
     
     const quiz_1a_i1 = document.getElementById("quiz-1a-i1");
-    quiz_1a_i1.addEventListener('input', quiz("1a",  1 , "af180e4359fc6179dc953abdcbdcaf7c146b53e1bee2b335e50dead11ccefa07"));
+    quiz_1a_i1.addEventListener('input', quiz("1a",  1 , "af180e4359fc6179dc953abdcbdcaf7c146b53e1bee2b335e50dead11ccefa07", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1a_i2 = document.getElementById("quiz-1a-i2");
-    quiz_1a_i2.addEventListener('input', quiz("1a",  2 , "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"));
+    quiz_1a_i2.addEventListener('input', quiz("1a",  2 , "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1a_i3 = document.getElementById("quiz-1a-i3");
-    quiz_1a_i3.addEventListener('input', quiz("1a",  3 , "e96e832bf653262fc2a673224c1309b1944bb5fefab1600a0b76a11f319bf35f"));
+    quiz_1a_i3.addEventListener('input', quiz("1a",  3 , "e96e832bf653262fc2a673224c1309b1944bb5fefab1600a0b76a11f319bf35f", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1a_i4 = document.getElementById("quiz-1a-i4");
-    quiz_1a_i4.addEventListener('input', quiz("1a",  4 , "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"));
+    quiz_1a_i4.addEventListener('input', quiz("1a",  4 , "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a", page));
     
     
 
@@ -337,7 +384,7 @@ is the circumcentre.
       
     
     
-    quiz_1a_i1.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total")));
+    quiz_1a_i1.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total"), "1a", page));
     
     
     
@@ -345,7 +392,7 @@ is the circumcentre.
       
     
     
-    quiz_1a_i2.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total")));
+    quiz_1a_i2.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total"), "1a", page));
     
     
     
@@ -353,7 +400,7 @@ is the circumcentre.
       
     
     
-    quiz_1a_i3.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total")));
+    quiz_1a_i3.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total"), "1a", page));
     
     
     
@@ -361,14 +408,17 @@ is the circumcentre.
       
     
     
-    quiz_1a_i4.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total")));
+    quiz_1a_i4.addEventListener('input', quizzes(quiz_1a, document.getElementById("quiz-1a-total"), "1a", page));
     
     
   </script>
 </div>
 
 <h2 id="question-1b">Question 1b</h2>
-  
+ 
+
+
+
 <div id="quiz-1b" class="quiz">
   <a href="#quiz-1b"><b>Quiz</b></a><br />
   <noscript> The quiz requires JavaScript to validate the answer(s). </noscript>
@@ -442,50 +492,49 @@ is the orthocentre.
     
   </ol>
   Final answer code: <code><span id="quiz-1b-total" role="status"><i>enter an answer</i></span></code>
+  
   <script type="module">
     import { quiz, quizzes } from "/mpm2dp-0a/js/quiz.js";
+
+    const page = 'https:\/\/nyiyui.ca\/mpm2dp-0a\/p1\/u2\/practice\/';
 
     
     
     
-    
-      
+       
       
     
     
     
     const quiz_1b_i1 = document.getElementById("quiz-1b-i1");
-    quiz_1b_i1.addEventListener('input', quiz("1b",  1 , "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953"));
+    quiz_1b_i1.addEventListener('input', quiz("1b",  1 , "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1b_i2 = document.getElementById("quiz-1b-i2");
-    quiz_1b_i2.addEventListener('input', quiz("1b",  2 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"));
+    quiz_1b_i2.addEventListener('input', quiz("1b",  2 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1b_i3 = document.getElementById("quiz-1b-i3");
-    quiz_1b_i3.addEventListener('input', quiz("1b",  3 , "7f0a22117f8fe0172cf9209ff622b64a51aaeda21d58b5b62685a93dbe2dad25"));
+    quiz_1b_i3.addEventListener('input', quiz("1b",  3 , "7f0a22117f8fe0172cf9209ff622b64a51aaeda21d58b5b62685a93dbe2dad25", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1b_i4 = document.getElementById("quiz-1b-i4");
-    quiz_1b_i4.addEventListener('input', quiz("1b",  4 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"));
+    quiz_1b_i4.addEventListener('input', quiz("1b",  4 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7", page));
     
     
 
@@ -536,7 +585,7 @@ is the orthocentre.
       
     
     
-    quiz_1b_i1.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total")));
+    quiz_1b_i1.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total"), "1b", page));
     
     
     
@@ -544,7 +593,7 @@ is the orthocentre.
       
     
     
-    quiz_1b_i2.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total")));
+    quiz_1b_i2.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total"), "1b", page));
     
     
     
@@ -552,7 +601,7 @@ is the orthocentre.
       
     
     
-    quiz_1b_i3.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total")));
+    quiz_1b_i3.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total"), "1b", page));
     
     
     
@@ -560,14 +609,17 @@ is the orthocentre.
       
     
     
-    quiz_1b_i4.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total")));
+    quiz_1b_i4.addEventListener('input', quizzes(quiz_1b, document.getElementById("quiz-1b-total"), "1b", page));
     
     
   </script>
 </div>
 
 <h2 id="question-1c">Question 1c</h2>
-  
+ 
+
+
+
 <div id="quiz-1c" class="quiz">
   <a href="#quiz-1c"><b>Quiz</b></a><br />
   <noscript> The quiz requires JavaScript to validate the answer(s). </noscript>
@@ -641,50 +693,49 @@ is the centroid.
     
   </ol>
   Final answer code: <code><span id="quiz-1c-total" role="status"><i>enter an answer</i></span></code>
+  
   <script type="module">
     import { quiz, quizzes } from "/mpm2dp-0a/js/quiz.js";
+
+    const page = 'https:\/\/nyiyui.ca\/mpm2dp-0a\/p1\/u2\/practice\/';
 
     
     
     
-    
-      
+       
       
     
     
     
     const quiz_1c_i1 = document.getElementById("quiz-1c-i1");
-    quiz_1c_i1.addEventListener('input', quiz("1c",  1 , "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918"));
+    quiz_1c_i1.addEventListener('input', quiz("1c",  1 , "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1c_i2 = document.getElementById("quiz-1c-i2");
-    quiz_1c_i2.addEventListener('input', quiz("1c",  2 , "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"));
+    quiz_1c_i2.addEventListener('input', quiz("1c",  2 , "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1c_i3 = document.getElementById("quiz-1c-i3");
-    quiz_1c_i3.addEventListener('input', quiz("1c",  3 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"));
+    quiz_1c_i3.addEventListener('input', quiz("1c",  3 , "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1c_i4 = document.getElementById("quiz-1c-i4");
-    quiz_1c_i4.addEventListener('input', quiz("1c",  4 , "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"));
+    quiz_1c_i4.addEventListener('input', quiz("1c",  4 , "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b", page));
     
     
 
@@ -735,7 +786,7 @@ is the centroid.
       
     
     
-    quiz_1c_i1.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total")));
+    quiz_1c_i1.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total"), "1c", page));
     
     
     
@@ -743,7 +794,7 @@ is the centroid.
       
     
     
-    quiz_1c_i2.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total")));
+    quiz_1c_i2.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total"), "1c", page));
     
     
     
@@ -751,7 +802,7 @@ is the centroid.
       
     
     
-    quiz_1c_i3.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total")));
+    quiz_1c_i3.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total"), "1c", page));
     
     
     
@@ -759,14 +810,17 @@ is the centroid.
       
     
     
-    quiz_1c_i4.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total")));
+    quiz_1c_i4.addEventListener('input', quizzes(quiz_1c, document.getElementById("quiz-1c-total"), "1c", page));
     
     
   </script>
 </div>
 
 <h3 id="question-1d">Question 1d</h3>
-  
+ 
+
+
+
 <div id="quiz-1d" class="quiz">
   <a href="#quiz-1d"><b>Quiz</b></a><br />
   <noscript> The quiz requires JavaScript to validate the answer(s). </noscript>
@@ -846,50 +900,49 @@ $sf\gt 0$e
     
   </ol>
   Final answer code: <code><span id="quiz-1d-total" role="status"><i>enter an answer</i></span></code>
+  
   <script type="module">
     import { quiz, quizzes } from "/mpm2dp-0a/js/quiz.js";
+
+    const page = 'https:\/\/nyiyui.ca\/mpm2dp-0a\/p1\/u2\/practice\/';
 
     
     
     
-    
-      
+       
       
     
     
     
     const quiz_1d_i1 = document.getElementById("quiz-1d-i1");
-    quiz_1d_i1.addEventListener('input', quiz("1d",  1 , "e665bc882e45d7a1ba61e3127d4490aedce6016483d44fba11a36c941640c18c"));
+    quiz_1d_i1.addEventListener('input', quiz("1d",  1 , "e665bc882e45d7a1ba61e3127d4490aedce6016483d44fba11a36c941640c18c", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1d_i2 = document.getElementById("quiz-1d-i2");
-    quiz_1d_i2.addEventListener('input', quiz("1d",  2 , "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864"));
+    quiz_1d_i2.addEventListener('input', quiz("1d",  2 , "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1d_i3 = document.getElementById("quiz-1d-i3");
-    quiz_1d_i3.addEventListener('input', quiz("1d",  3 , "1d2db6db4635c05a0902d6f8cb10be58a924c34dee511ee6fa1b2d819eac3c02"));
+    quiz_1d_i3.addEventListener('input', quiz("1d",  3 , "1d2db6db4635c05a0902d6f8cb10be58a924c34dee511ee6fa1b2d819eac3c02", page));
     
     
-    
-      
+       
       
     
     
     
     const quiz_1d_i4 = document.getElementById("quiz-1d-i4");
-    quiz_1d_i4.addEventListener('input', quiz("1d",  4 , "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864"));
+    quiz_1d_i4.addEventListener('input', quiz("1d",  4 , "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864", page));
     
     
 
@@ -940,7 +993,7 @@ $sf\gt 0$e
       
     
     
-    quiz_1d_i1.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total")));
+    quiz_1d_i1.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total"), "1d", page));
     
     
     
@@ -948,7 +1001,7 @@ $sf\gt 0$e
       
     
     
-    quiz_1d_i2.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total")));
+    quiz_1d_i2.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total"), "1d", page));
     
     
     
@@ -956,7 +1009,7 @@ $sf\gt 0$e
       
     
     
-    quiz_1d_i3.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total")));
+    quiz_1d_i3.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total"), "1d", page));
     
     
     
@@ -964,7 +1017,7 @@ $sf\gt 0$e
       
     
     
-    quiz_1d_i4.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total")));
+    quiz_1d_i4.addEventListener('input', quizzes(quiz_1d, document.getElementById("quiz-1d-total"), "1d", page));
     
     
   </script>

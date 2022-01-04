@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unit 3 on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/</link>
+    <description>Recent content in Unit 3 on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 Jan 2022 14:16:56 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p2/u3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graphing Quadratic Relations</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/trans/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/trans/</guid>
+      <description>All quadratic relations can be made into the form $sy=af(b(x-h))+k$e 1.
+Then, to graph the relation, apply these transformations in order1:
+Transformations: For this equation, $y=af(b(x-h))+k$ :
+ Vertical Scaling (using $a$)  If $|a| &amp;gt; 1$: vs by $|a|$. Else if $0 &amp;lt; |a| &amp;lt; 1$: vc by $|a|$.   Vertical Reflection (using $a$)  If $a &amp;lt; 0$: reflect on x-axis.   Horizontal Scaling (using $b$)  If $|b| &amp;gt; 1$: hs by $\frac{1}{|b|}$.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Rule</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/map/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/map/</guid>
+      <description>The mapping rule for quadratic relations is $s(x, y) \rightarrow (\frac{x}{b}+h)(ay+k)$e .
+To use it,
+ list 5+ key points from the parent function, then using the mapping notations, determine the new coordinates of the key points, then plot the new points.  </description>
+    </item>
+    
+    <item>
+      <title>Negative and Zero Exponents</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</guid>
+      <description>$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
+    </item>
+    
+    <item>
+      <title>Non-Linear Relations</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/nl/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/nl/</guid>
+      <description>The independent variable is the variables that is controlled before the trial begins, and the dependennt variable is the one that is measured during the trial. It is usually affected by the independent variable.
+Non-linear relations do not follow a straight line when graphed.
+The curve of best fit is a smooth curve drawn to approximate the general path or trend of a scatter plot.
+Example  In the following figure, the blue line is one curve of best fit (4th degree polynomial).</description>
+    </item>
+    
+    <item>
+      <title>Practice</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</guid>
+      <description>Question 1 Quiz
+ The quiz requires JavaScript to validate the answer(s).  Consider $st=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
+    </item>
+    
+    <item>
+      <title>Quadratic Relation</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/qr/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/qr/</guid>
+      <description>Quadratic relations are relations whose equatio is in the form $sy=ax^2+bx+c$e where $sa\in \mathbb{R}$e , $sb\in \mathbb{R}$e , $sc\in \mathbb{R}$e , and $sa\ne 0$e .
+Parabolas are quadratic relations which are U-shaped and symmetrical.
+The vertex of quadratic relations are where:
+ the curve changes direction, and is either the maximum of minimum (in terms of $sy$e ) point in the relation.  The axis of symmetry if the line that divides a digure into 2 congruent parts.</description>
+    </item>
+    
+    <item>
+      <title>Zeroes Form</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</guid>
+      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e </description>
+    </item>
+    
+  </channel>
+</rss>
