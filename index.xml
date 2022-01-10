@@ -7,6 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Factorization of Polynomials</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/factor/</link>
+      <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/factor/</guid>
+      <description> Example  $$sx^2-x-30$$e $$s=(x-6)(x+5)$$e  Example  $$sx^2-6x+9-4y^2$$e $$s=(x-3+2y)(x-3-2y)$$e  Example  $$s81-x^3$$e $$s=(9+x^2)(3+x)(3-x)$$e  </description>
+    </item>
+    
+    <item>
+      <title>Simplfication of Polynomials</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/simpl/</link>
+      <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/simpl/</guid>
+      <description>Simplifications of polynomials involve combining like terms.
+Example  $s\frac{3x+2}{3y-1}$e where $sx=-2$e , and $sy=1$e is: $$s\frac{3x+2}{3y-1}$$e $$s=\frac{4}{2}$$e $$s=2$$e  Example  The non-permissible value(s) for $s\frac{x^3+1}{y-3}$e is: If $sy-3$e is $s0$e , the answer would be non-permissible. $$sy=3$$e  Example  The non-permissible value(s) for $$s\frac{2a^2+4a-48}{3a^2+3a-60}$$e $$s=\frac{3(a+6)}{2(a+5)}$$e is: $$sa\ne -5,4$$e  </description>
+    </item>
+    
+    <item>
+      <title>Operations on Polynomials</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/polyops/</link>
+      <pubDate>Tue, 04 Jan 2022 15:57:45 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/polyops/</guid>
+      <description>Polynomials can be added by adding each of the like terms in polynomials.
+Two polynomial expressions (includes functions) are equivalent if:
+ they simplify to give the same expression, or they produce the same graph.  Two polynomial functions are not equivalent if: they result in different values when they are evaluated with the same values substituted for the variable(s).
+ How to subtract polynomials To subtract polynomials, rewrite the operation as an addition of negatives:  Example  $$s(2x^2-x)+(3x^2-2x+3)$$e $$s=5x^2-3x+3$$e  Example  When are $sxy+xz+yz$e and $sx^2+y^2+x^2$e equivalent?</description>
+    </item>
+    
+    <item>
       <title>Clue</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p2/clue/</link>
       <pubDate>Tue, 04 Jan 2022 14:50:35 -0500</pubDate>
