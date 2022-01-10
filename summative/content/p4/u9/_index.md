@@ -9,4 +9,4 @@ chapter = 2
 
 ## Quick Reference
 
-- Check sign of values - {{<mi>}}c/(x-1)(x+3); x\ne -1,3{{</mi>}}, not {{<mi>}}; x\ne 1, -3{{<mi>}}
+- Check sign of values - {{<mi>}}c/(x-1)(x+3); x\ne -1,3{{</mi>}}, not {{<mi>}}; x\ne 1, -3{{</mi>}}
