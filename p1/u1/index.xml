@@ -39,7 +39,7 @@ $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ or $d=\frac{\Delta y}{\Delta x}$
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p1/u1/mp/</guid>
       <description>A midpoint is a point that is equiditant from two points at the end of a line segment.
-The midpoint of $\overline{AB}$ is $M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$ where $A(x_1, y_1)$ and $B(x_2, y_2)$.
+The midpoint of $\overline{AB}$ is $M_{AB}=(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$ where $A(x_1, y_1)$ and $B(x_2, y_2)$.
 Bisecting lines share their midpoints. For example, in parallelograms, the diagonals bisect each other.
 A right bisector is a line that bisects another line and intersects it by a $90°$ angle.
     M A B   Figure with identifier mp :    </description>
