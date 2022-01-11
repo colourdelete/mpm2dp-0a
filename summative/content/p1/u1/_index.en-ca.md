@@ -13,7 +13,7 @@ unit = 1
 
 **Distance**: $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
 
-**Midpoint**: $M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$
+**Midpoint**: $M_{AB}=(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$
 
 ## Application of Formulas
 

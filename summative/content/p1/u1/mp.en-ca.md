@@ -11,7 +11,7 @@ lesson = 3
 
 A **midpoint** is a point that is equiditant from two points at the end of a line segment.
 
-The midpoint of $\overline{AB}$ is $M_{AB}=(\frac{x_1+x_2}{2}, \frac{x_1+x_2}{2})$
+The midpoint of $\overline{AB}$ is $M_{AB}=(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$
 where
 $A(x_1, y_1)$
 and
