@@ -27,7 +27,7 @@ Example  Rationalize $\frac{1}{\sqrt{12}}-\frac{1}{\sqrt[3]{27}}$: $$\frac{1}{2\
 $A(x_1, y_1)$と $B(x_2, y_2)$のとき、 線分$\overline{AB}$の中点は $M_{AB}=(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$ です。
 2等分線同士の中点は同じ場所に有ります。例えば、平行四辺形の対角線の中間点は同じ場所に有ります。
 A right bisector is a line that bisects another line and intersects it by a $90°$ angle.
-    M A B   Figure with identifier mp :    </description>
+    M A B   Figure with identifier mp :    中線は三角形の頂点から対辺の中点の直線です。</description>
     </item>
     
     <item>
