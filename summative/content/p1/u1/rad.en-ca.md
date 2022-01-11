@@ -48,7 +48,7 @@ $$\frac{\sqrt{3}-2}{6}$$
 {{< /unsafe >}}
 {{< /eg >}}
 
-A **conjugate** is $a-b$ for $a+b$, and must satify $(a+b)(a-b)=a^2-b^2$).
+A **conjugate** is $a-b$ for $a+b$, and must satify $(a+b)(a-b)=a^2-b^2$.
 
 To **rationalize fraction with binomial denominators**, multiply the denominator with its conjugate.
 
