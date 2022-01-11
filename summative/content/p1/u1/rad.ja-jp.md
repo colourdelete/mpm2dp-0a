@@ -27,7 +27,7 @@ ${{< /unsafe >}}
 Division: {{< unsafe >}}$
 \frac{\sqrt{a}}{\sqrt{b}}=\sqrt{\frac{a}{b}},
 a\le 0,
-b\lt 0
+b\le 0
 ${{< /unsafe >}}
 
 Convert to an exponent: {{< unsafe >}}$
