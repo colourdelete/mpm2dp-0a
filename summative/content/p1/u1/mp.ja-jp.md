@@ -33,3 +33,5 @@ A **right bisector** is a line that bisects another line and intersects it by a 
 	<text x="25" y="45" style="font: italic 5px serif;">A</text>
 	<text x="75" y="45" style="font: italic 5px serif;">B</text>
 {{< /svg >}}
+
+**中線**は三角形の頂点から対辺の中点の直線です。

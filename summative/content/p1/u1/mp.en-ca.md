@@ -33,3 +33,14 @@ A **right bisector** is a line that bisects another line and intersects it by a 
 	<text x="25" y="45" style="font: italic 5px serif;">A</text>
 	<text x="75" y="45" style="font: italic 5px serif;">B</text>
 {{< /svg >}}
+
+A **median** the line segment joining a vertex of a triangle to the midpoint of the opposite side.
+In the figure below, {{<mi>}}\overline{CD}{{</mi>}} is the median from {{<mi>}}C{{</mi>}} to {{<mi>}}\overline{AB}{{</mi>}}.
+
+{{<cite/wmc "File:Triangle.Centroid.Median.png">}}
+
+Medians can also apply to tetrahedrons:
+
+{{<cite/wmc "File:Tetrahedron_centroid_gimp.png">}}
+
+**Equidistant** means that the distance is equal.
