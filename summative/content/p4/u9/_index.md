@@ -1,5 +1,5 @@
 +++
-title = "Unit 9"
+title = "Equivalent Algebraic Expressions"
 date = 2022-01-04T14:08:42-05:00
 draft = false
 

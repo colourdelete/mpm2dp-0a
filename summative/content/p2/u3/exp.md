@@ -9,6 +9,9 @@ chapter = 4
 section = 6
 +++
 
+Negative exponents turn the number into its reciprocal, and
+an exponent of {{<mi>}}0{{</mi>}} is always {{<mi>}}1{{</mi>}}.
+
 {{<md>}}x^0=1{{</md>}}
 {{<md>}}x^-1=\frac{1}{x}{{</md>}}
 

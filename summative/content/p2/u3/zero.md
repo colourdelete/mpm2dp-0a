@@ -11,6 +11,6 @@ section = 5
 
 In the zeroes form, {{<mi>}}y=a(x-r)(x-s){{</mi>}},
 the x-intercepts are {{<mi>}}(r, 0){{</mi>}} and {{<mi>}}(s, 0){{</mi>}},
-and the vertex is {{<mi>}}(\frac{r+s}{2}, y){{</mi>}}
+and the vertex is {{<mi>}}(\frac{r+s}{2}, y){{</mi>}}.
 
 ![Example](../zero-eg.png)

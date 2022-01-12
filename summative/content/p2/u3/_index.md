@@ -1,5 +1,5 @@
 +++
-title = "Unit 3"
+title = "Quadratic Relations"
 date = 2022-01-04T14:16:56-05:00
 draft = false
 
