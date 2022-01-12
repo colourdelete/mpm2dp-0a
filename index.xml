@@ -71,12 +71,23 @@ To use it,
     </item>
     
     <item>
+      <title>Multiplication of Polynomials</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/mul/</link>
+      <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/mul/</guid>
+      <description>Multiplication of binomials follow this rule: $$s(a+b)(c+d)=ac+ad+bc+bd$$e This can be easily remembered by using the FOIL method:
+ Multiply the first terms: $sac$e  Multiply the outer terms: $sad$e  Multiply the inner terms: $sbc$e  Multiply the last terms: $sbd$e   Example  $$s(3x-1)(4-2x)$$e $$s12x-6x^2-4+2x$$e $$s-6x^2+14x-4$$e  Since the FOIL method is derived from the distribution rule, for trinomials (e.g. $s(a+b+c)(d+e+f)$e ), we can use the FFMOMFMMOIIMIO method: (this is a joke, please just distribute it on-the-fly)</description>
+    </item>
+    
+    <item>
       <title>Negative and Zero Exponents</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</link>
       <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</guid>
-      <description>$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
+      <description>Negative exponents turn the number into its reciprocal, and an exponent of $s0$e is always $s1$e .
+$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
     </item>
     
     <item>
@@ -98,7 +109,7 @@ Example  In the following figure, the blue line is one curve of best fit (4th de
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</guid>
       <description>Question 1 Quiz
- The quiz requires JavaScript to validate the answer(s).  Consider $st=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
+ The quiz requires JavaScript to validate the answer(s).  Consider $sy=t=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
     </item>
     
     <item>
@@ -119,7 +130,74 @@ The vertex of quadratic relations are where:
       <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</guid>
-      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e </description>
+      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e .</description>
+    </item>
+    
+    <item>
+      <title>Practice</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/practice/</link>
+      <pubDate>Tue, 04 Jan 2022 11:29:04 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/practice/</guid>
+      <description>Question 1 Quiz
+ The quiz requires JavaScript to validate the answer(s).  Find the factored form of the expression for the area of the shaded region in factored form. Note: the length of the larger side is $s3x+$$e and the length of the shorter side is $sx-2$e . Answer in the form $sA=a(bx+c)(dx+e)$e .   $sa$e  The SHA-256 hash of the answer is 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.   $sb$e  The SHA-256 hash of the answer is 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b.</description>
+    </item>
+    
+    <item>
+      <title>Binomial Expansion</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/exp/</link>
+      <pubDate>Tue, 04 Jan 2022 11:17:04 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/exp/</guid>
+      <description>The binomial theorem describes how to expand powers of binomials.
+Example  Using the theorem, $s(x+2)^3$e is $s8 + 12 x + 6 x^2 + x^3$e .  The $sr$e th coefficient for the $sn$e th is $sn\choose r$e , pronounced &amp;ldquo;n choose r&amp;rdquo;.
+Example  The 4th coefficient of $s(3x+8)^6$e is $s6\choose 3$e $s(3x)^38^3$e $s=276480x^3$e  </description>
+    </item>
+    
+    <item>
+      <title>Factor Perfect Square Trinomials and Difference of Squares</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/sq/</link>
+      <pubDate>Tue, 04 Jan 2022 11:17:04 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/sq/</guid>
+      <description>Difference of Squares $$sa^2-b^2=(a+b)(a-b)$$e Example  $$s4x^2-16$$e $$s=(2x-4)^2$$e  Perfect Square Trinomials $$sa^2+2ab+b^2=(a+b)$$e $$sa^2-2ab+b^2=(a-b)$$e Example  $$s4x^2+20x+25$$e $$s=(2x+5)^2$$e  </description>
+    </item>
+    
+    <item>
+      <title>Factor Quadratics 2</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/f2/</link>
+      <pubDate>Tue, 04 Jan 2022 11:17:04 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/f2/</guid>
+      <description>To factor trinomials in the form $sax^2+bx+c$e : $$sy+z=ac$$e $$syz=b$$e $$sax^2+bx+c$$e $$s=ax^2+yx+zx+c$$e Example  $$s6x^2+17x+12$$e Because $sy+z=ac$e $syz=b$e , $sy=8$e and $sz=9$e . $$s=6x^2+8x+9x+12$$e $$s=2x(3x+4)+3(3x+4)$$e Then, factor by grouping. $$s=(2x+3)(3x+4)$$e  </description>
+    </item>
+    
+    <item>
+      <title>Factor Quadratics</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/f/</link>
+      <pubDate>Tue, 04 Jan 2022 11:15:04 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/f/</guid>
+      <description>To factor trinomials in the form $sx^2+bx+c$e : $$sy+z=c$$e $$syz=b$$e $$sx^2+bx+c$$e $$s=(x+y)(x+z)$$e Example  $$sx^4+11x^2+30$$e $$s=(x^2+6)(x^2+5)$$e  </description>
+    </item>
+    
+    <item>
+      <title>Common Factoring</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/cf/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/cf/</guid>
+      <description>Factoring is the opposite of exapanding (what we did so far).
+To factor a polynomial, group the polynomials by the GCF: $$s8x^2y^2-12x^4y$$e $$s4x^2y(2y^2-3x^2)$$e Example  Remember: a GCF does not have to be a monomial. In this case, it is $sx+2$e . $$sa(x+2)+b(x+2)$$e $$s=(a+b)(x+2)$$e  You can also factor by grouping terms with a common factor: Example  $$s2am+8a+4m+16$$e $$s=(4+m)(2a+4)$$e $$s=2(a+2)(m+4)$$e  </description>
+    </item>
+    
+    <item>
+      <title>Special Products</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/sp/</link>
+      <pubDate>Tue, 04 Jan 2022 11:04:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/sp/</guid>
+      <description>When squaring a binomial, the result becomes: $$s(a+b)^2$$e $$s=a^2+2ab+b^2$$e $$s(a-b)^2$$e $$s=a^2-2ab+b^2$$e Example  $$s(3x-2y)^2$$e $$s=9x^2-12xy+4y^2$$e  </description>
     </item>
     
     <item>

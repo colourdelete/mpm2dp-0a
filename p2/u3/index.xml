@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unit 3 on MPM2DP-0A Summative</title>
+    <title>Quadratic Relations on MPM2DP-0A Summative</title>
     <link>https://nyiyui.ca/mpm2dp-0a/p2/u3/</link>
-    <description>Recent content in Unit 3 on MPM2DP-0A Summative</description>
+    <description>Recent content in Quadratic Relations on MPM2DP-0A Summative</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 04 Jan 2022 14:16:56 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p2/u3/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -35,7 +35,8 @@ To use it,
       <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/exp/</guid>
-      <description>$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
+      <description>Negative exponents turn the number into its reciprocal, and an exponent of $s0$e is always $s1$e .
+$$sx^0=1$$e $$sx^-1=\frac{1}{x}$$e Example  $$s(\frac{2}{3})^{-2}=(\frac{3}{2})^2=\frac{9}{4}$$e  </description>
     </item>
     
     <item>
@@ -57,7 +58,7 @@ Example  In the following figure, the blue line is one curve of best fit (4th de
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/practice/</guid>
       <description>Question 1 Quiz
- The quiz requires JavaScript to validate the answer(s).  Consider $st=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
+ The quiz requires JavaScript to validate the answer(s).  Consider $sy=t=0.5(x+1)^2-5$e .   Direction of opening (either up or down)  The SHA-256 hash of the answer is 75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9.   Stretch or compression factor value  The SHA-256 hash of the answer is d2cbad71ff333de67d07ec676e352ab7f38248eb69c942950157220607c55e84.   Stretch or compression factor direction (either vertical or horizontal)  The SHA-256 hash of the answer is 34da56029403e6f793b86883b3c7205b8dafe06b25a3159f8c06fc87262c1028.   $sx$e value of the vertex  The SHA-256 hash of the answer is 1bad6b8cf97131fceab8543e81f7757195fbb1d36b376ee994ad1cf17699c464.</description>
     </item>
     
     <item>
@@ -78,7 +79,7 @@ The vertex of quadratic relations are where:
       <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u3/zero/</guid>
-      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e </description>
+      <description>In the zeroes form, $sy=a(x-r)(x-s)$e , the x-intercepts are $s(r, 0)$e and $s(s, 0)$e , and the vertex is $s(\frac{r+s}{2}, y)$e .</description>
     </item>
     
   </channel>
