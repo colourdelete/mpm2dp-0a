@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Dec 2021 12:29:47 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Generic Factorization</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/g/</link>
+      <pubDate>Thu, 13 Jan 2022 09:39:41 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/g/</guid>
+      <description> Note  This page is not based off the curriculum, and therefore is not required.  Vieta&amp;rsquo;s formulas relate the coefficients of polynomials to sums and products of its roots. All the other methods of factorization can be derived from these formulas.
+Quadratics For quadratics, the polynomial is $$s P(x)=a_2x^2+a_1x+a_0 $$e , and the sum and product can derived from the formula: $$s r_1+r_2=\frac{-a_1}{a_2} $$e $$s r_1r_2=\frac{a_0}{a_2} $$e Changing the variable names results in something more familliar: $$s P(x)=ax^2+bx+c $$e $$s r_1+r_2=\frac{-b}{a} $$e $$s r_1r_2=\frac{c}{a} $$e </description>
+    </item>
+    
+    <item>
       <title>Factorization of Polynomials</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/factor/</link>
       <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
@@ -43,8 +53,8 @@ Two polynomial expressions (includes functions) are equivalent if:
       <pubDate>Tue, 04 Jan 2022 14:50:35 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/clue/</guid>
-      <description> Quiz
- The quiz requires JavaScript to validate the answer(s).  body   q  The SHA-256 hash of the answer is ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb.   Final answer code: enter an answer  Explanation exp  import { quiz, quizzes } from &#34;/mpm2dp-0a/js/quiz.js&#34;; const page = &#39;https:\/\/nyiyui.ca\/mpm2dp-0a\/p2\/clue\/&#39;; const quiz_clue_i1 = document.getElementById(&#34;quiz-clue-i1&#34;); quiz_clue_i1.addEventListener(&#39;input&#39;, quiz(&#34;clue&#34;, 1 , &#34;ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb&#34;, page)); const quiz_clue = [ quiz_clue_i1, ]; quiz_clue_i1.addEventListener(&#39;input&#39;, quizzes(quiz_clue, document.getElementById(&#34;quiz-clue-total&#34;), &#34;clue&#34;, page));   </description>
+      <description>Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine the mean of the two $sx$e values of the vertexes of $sy=x^2+3x+2$e , and $sy=-5x^2+45x-90$e , in the form $s\frac{a}{b}$e .   $sa$e  The SHA-256 hash of the answer is 7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451.   $sb$e  The SHA-256 hash of the answer is 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.   Final answer code: enter an answer  Explanation The vertex of the first equation is $s(\frac{-3}{2}, \frac{-1}{2}$e</description>
     </item>
     
     <item>
@@ -77,7 +87,7 @@ To use it,
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/mul/</guid>
       <description>Multiplication of binomials follow this rule: $$s(a+b)(c+d)=ac+ad+bc+bd$$e This can be easily remembered by using the FOIL method:
- Multiply the first terms: $sac$e  Multiply the outer terms: $sad$e  Multiply the inner terms: $sbc$e  Multiply the last terms: $sbd$e   Example  $$s(3x-1)(4-2x)$$e $$s12x-6x^2-4+2x$$e $$s-6x^2+14x-4$$e  Since the FOIL method is derived from the distribution rule, for trinomials (e.g. $s(a+b+c)(d+e+f)$e ), we can use the FFMOMFMMOIIMIO method: (this is a joke, please just distribute it on-the-fly)</description>
+ Multiply the first terms: $sac$e  Multiply the outer terms: $sad$e  Multiply the inner terms: $sbc$e  Multiply the last terms: $sbd$e   Example  $$s(3x-1)(4-2x)$$e $$s12x-6x^2-4+2x$$e $$s-6x^2+14x-4$$e  Note  The content below is a *joke*. Please don&#39;t use this seriously.  Since the FOIL method is derived from the distribution rule, for trinomials (e.</description>
     </item>
     
     <item>
@@ -160,7 +170,9 @@ Example  The 4th coefficient of $s(3x+8)^6$e is $s6\choose 3$e $s(3x)^38^3$e $s=
       <pubDate>Tue, 04 Jan 2022 11:17:04 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/sq/</guid>
-      <description>Difference of Squares $$sa^2-b^2=(a+b)(a-b)$$e Example  $$s4x^2-16$$e $$s=(2x-4)^2$$e  Perfect Square Trinomials $$sa^2+2ab+b^2=(a+b)$$e $$sa^2-2ab+b^2=(a-b)$$e Example  $$s4x^2+20x+25$$e $$s=(2x+5)^2$$e  </description>
+      <description>Difference of Squares The difference of squares formula can be applied in many contexts (it&amp;rsquo;s often hiding in the equation!).
+$$sa^2-b^2=(a+b)(a-b)$$e Example  $$s4x^2-16$$e $$s=(2x-4)^2$$e  Perfect Square Trinomials Perfect square trinomials are derived by expanding equations like $s(a+b)^2$e .
+$$sa^2+2ab+b^2=(a+b)^2$$e $$sa^2-2ab+b^2=(a-b)^2$$e Example  $$s4x^2+20x+25$$e $$s=(2x+5)^2$$e  </description>
     </item>
     
     <item>

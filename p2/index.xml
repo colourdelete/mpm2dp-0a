@@ -12,8 +12,8 @@
       <pubDate>Tue, 04 Jan 2022 14:50:35 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/clue/</guid>
-      <description> Quiz
- The quiz requires JavaScript to validate the answer(s).  body   q  The SHA-256 hash of the answer is ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb.   Final answer code: enter an answer  Explanation exp  import { quiz, quizzes } from &#34;/mpm2dp-0a/js/quiz.js&#34;; const page = &#39;https:\/\/nyiyui.ca\/mpm2dp-0a\/p2\/clue\/&#39;; const quiz_clue_i1 = document.getElementById(&#34;quiz-clue-i1&#34;); quiz_clue_i1.addEventListener(&#39;input&#39;, quiz(&#34;clue&#34;, 1 , &#34;ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb&#34;, page)); const quiz_clue = [ quiz_clue_i1, ]; quiz_clue_i1.addEventListener(&#39;input&#39;, quizzes(quiz_clue, document.getElementById(&#34;quiz-clue-total&#34;), &#34;clue&#34;, page));   </description>
+      <description>Quiz
+ The quiz requires JavaScript to validate the answer(s).  Determine the mean of the two $sx$e values of the vertexes of $sy=x^2+3x+2$e , and $sy=-5x^2+45x-90$e , in the form $s\frac{a}{b}$e .   $sa$e  The SHA-256 hash of the answer is 7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451.   $sb$e  The SHA-256 hash of the answer is 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.   Final answer code: enter an answer  Explanation The vertex of the first equation is $s(\frac{-3}{2}, \frac{-1}{2}$e</description>
     </item>
     
   </channel>

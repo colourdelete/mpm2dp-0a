@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 12 Jan 2022 10:45:36 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p2/u4/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Generic Factorization</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/g/</link>
+      <pubDate>Thu, 13 Jan 2022 09:39:41 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/g/</guid>
+      <description> Note  This page is not based off the curriculum, and therefore is not required.  Vieta&amp;rsquo;s formulas relate the coefficients of polynomials to sums and products of its roots. All the other methods of factorization can be derived from these formulas.
+Quadratics For quadratics, the polynomial is $$s P(x)=a_2x^2+a_1x+a_0 $$e , and the sum and product can derived from the formula: $$s r_1+r_2=\frac{-a_1}{a_2} $$e $$s r_1r_2=\frac{a_0}{a_2} $$e Changing the variable names results in something more familliar: $$s P(x)=ax^2+bx+c $$e $$s r_1+r_2=\frac{-b}{a} $$e $$s r_1r_2=\frac{c}{a} $$e </description>
+    </item>
+    
+    <item>
       <title>Multiplication of Polynomials</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p2/u4/mul/</link>
       <pubDate>Tue, 04 Jan 2022 14:16:56 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/mul/</guid>
       <description>Multiplication of binomials follow this rule: $$s(a+b)(c+d)=ac+ad+bc+bd$$e This can be easily remembered by using the FOIL method:
- Multiply the first terms: $sac$e  Multiply the outer terms: $sad$e  Multiply the inner terms: $sbc$e  Multiply the last terms: $sbd$e   Example  $$s(3x-1)(4-2x)$$e $$s12x-6x^2-4+2x$$e $$s-6x^2+14x-4$$e  Since the FOIL method is derived from the distribution rule, for trinomials (e.g. $s(a+b+c)(d+e+f)$e ), we can use the FFMOMFMMOIIMIO method: (this is a joke, please just distribute it on-the-fly)</description>
+ Multiply the first terms: $sac$e  Multiply the outer terms: $sad$e  Multiply the inner terms: $sbc$e  Multiply the last terms: $sbd$e   Example  $$s(3x-1)(4-2x)$$e $$s12x-6x^2-4+2x$$e $$s-6x^2+14x-4$$e  Note  The content below is a *joke*. Please don&#39;t use this seriously.  Since the FOIL method is derived from the distribution rule, for trinomials (e.</description>
     </item>
     
     <item>
@@ -43,7 +53,9 @@ Example  The 4th coefficient of $s(3x+8)^6$e is $s6\choose 3$e $s(3x)^38^3$e $s=
       <pubDate>Tue, 04 Jan 2022 11:17:04 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/u4/sq/</guid>
-      <description>Difference of Squares $$sa^2-b^2=(a+b)(a-b)$$e Example  $$s4x^2-16$$e $$s=(2x-4)^2$$e  Perfect Square Trinomials $$sa^2+2ab+b^2=(a+b)$$e $$sa^2-2ab+b^2=(a-b)$$e Example  $$s4x^2+20x+25$$e $$s=(2x+5)^2$$e  </description>
+      <description>Difference of Squares The difference of squares formula can be applied in many contexts (it&amp;rsquo;s often hiding in the equation!).
+$$sa^2-b^2=(a+b)(a-b)$$e Example  $$s4x^2-16$$e $$s=(2x-4)^2$$e  Perfect Square Trinomials Perfect square trinomials are derived by expanding equations like $s(a+b)^2$e .
+$$sa^2+2ab+b^2=(a+b)^2$$e $$sa^2-2ab+b^2=(a-b)^2$$e Example  $$s4x^2+20x+25$$e $$s=(2x+5)^2$$e  </description>
     </item>
     
     <item>
