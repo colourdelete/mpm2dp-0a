@@ -11,6 +11,8 @@ section = 6
 
 ## Difference of Squares
 
+The difference of squares formula can be applied in many contexts (it's often hiding in the equation!).
+
 {{<md>}}a^2-b^2=(a+b)(a-b){{</md>}}
 
 {{<eg id="1a">}}
@@ -20,8 +22,10 @@ section = 6
 
 ## Perfect Square Trinomials
 
-{{<md>}}a^2+2ab+b^2=(a+b){{</md>}}
-{{<md>}}a^2-2ab+b^2=(a-b){{</md>}}
+Perfect square trinomials are derived by expanding equations like {{<mi>}}(a+b)^2{{</mi>}}.
+
+{{<md>}}a^2+2ab+b^2=(a+b)^2{{</md>}}
+{{<md>}}a^2-2ab+b^2=(a-b)^2{{</md>}}
 
 {{<eg id="4a">}}
 {{<md>}}4x^2+20x+25{{</md>}}

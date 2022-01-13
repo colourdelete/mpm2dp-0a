@@ -8,3 +8,6 @@ chapter = 4
 +++
 
 ## Quick Reference
+
+To get the rth coefficient for the nth binomial {{<mi>}}(a+b)^c{{</mi>}} expansion:
+{{<mi>}}n\choose r{{</mi>}}

@@ -24,6 +24,8 @@ This can be easily remembered by using the **FOIL method**:
 {{<md>}}-6x^2+14x-4{{</md>}}
 {{</eg>}}
 
+{{%note id="joke"%}}The content below is a *joke*. Please don't use this seriously.{{%/note%}}
+
 Since the FOIL method is derived from the distribution rule, for trinomials
 (e.g. {{<mi>}}(a+b+c)(d+e+f){{</mi>}}),
 we can use the **FFMOMFMMOIIMIO method**: (this is a joke, please just distribute it on-the-fly)
