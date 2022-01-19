@@ -37,13 +37,7 @@ $a$
 -27
 
 
-{{<md>}}f(x)=\frac{-27}{(7^{-1})(x-(-3)^3)}{{</md>}}
-{{<md>}}g(x)=\frac{1}{x}{{</md>}}
-{{<md>}}f(x)=-189g(x+27){{</md>}}
-{{<md>}}f(x)=af(b(x-h))+k{{</md>}}
-{{<md>}}D\\{x\in\mathbb{R}|x-h\ne 0\\}{{</md>}}
-{{<md>}}D\\{x\in\mathbb{R}|x+27\ne 0\\}{{</md>}}
-{{<md>}}D\\{x\in\mathbb{R}|x\ne -27\\}{{</md>}}
+https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Question_1a
 {{< /quiz >}}
 
 ### Question 1b
@@ -55,7 +49,7 @@ Is $f(x)$ a function? In other words, is $f(x)$ injective?
 yes
 
 
-The parent function $g(x)=\frac{1}{x}$ is injective, thus $f(x)$ is injective.
+https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Question_1b
 {{< /quiz >}}
 
 ### Question 1c
@@ -79,13 +73,7 @@ where $g(x)=\frac{1}{x}$?
 
 
 
-From the explanation of question 1a:
-{{<md>}}g(x)=\frac{1}{x}{{</md>}}
-{{<md>}}f(x)=-189g(x+27){{</md>}}
-{{<md>}}a=-189{{</md>}}
-{{<md>}}b=1{{</md>}}
-{{<md>}}h=-27{{</md>}}
-{{<md>}}k=0{{</md>}}
+https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Question_1c
 {{< /quiz >}}
 
 ## Question 2
@@ -100,9 +88,7 @@ where
 
 
 
-{{<md>}}(g\circ f)(x)=g(f(x)){{</md>}}
-{{<md>}}f(12)=26{{</md>}}
-{{<md>}}g(26)=1352{{</md>}}
+https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Question_1c
 {{< /quiz >}}
 
 - {{< ree "p4/u8/abs" >}}

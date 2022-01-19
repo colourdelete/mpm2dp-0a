@@ -34,7 +34,5 @@ $se$e
 1
 
 
-{{<md>}}A=(3x+4)^2-(x-2)^2{{</md>}}
-{{<md>}}=4(1x+3)(2x+1){{</md>}}
-{{<md>}}=a(bx+c)(dx+e){{</md>}}.
+https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Unit_4
 {{</quiz>}}

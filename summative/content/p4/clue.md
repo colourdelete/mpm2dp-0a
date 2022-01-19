@@ -7,9 +7,10 @@ draft = false
 {{< quiz >}}
 Determine $f(x)$,
 where
-{{< unsafe >}}$g(x)=x^2$, and
-$12+g^{-1}(2f(x)-\frac{5}{2})\ge 3x${{< /unsafe >}}<!--$f(x)\ge 2g(3(x-4))+5$-->
-Answer in terms of $f(x)\ge ag(b(x-h))+k$, and round decimals to two places.
+{{<mi>}}g(x)=x^2{{</mi>}}, and
+{{<mi>}}f(x)\ge 2g(3(x-4))+5{{</mi>}}.
+{{<mi>}}\frac{f(x)-5}{2}\ge g(3(x-4)){{</mi>}}.
+Answer in terms of {{<mi>}}f(x)\ge ag(b(x-h))+k{{</mi>}}, and round decimals to two places.
 The answer must match this regular expression: <code>[0-9]+(\.[0-9]+)?</code>
 
 What is $a$?
@@ -23,4 +24,8 @@ What is $h$?
 
 What is $k$?
 5
+
+
+
+
 {{< /quiz >}}

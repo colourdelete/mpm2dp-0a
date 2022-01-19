@@ -18,13 +18,11 @@ $sb$e
 2
 
 $sc$e
-6
+3
 
 $sd$e
-2
+1
 
 
-{{<mi>}}A(1, 5){{</mi>}}
-{{<mi>}}B(10, 1){{</mi>}}
-{{<mi>}}M_{AB}(\frac{11}{2}, \frac{6}{2}){{</mi>}}
+https://kiki.nyiyui.ca/MPM2DP-0A_Summative_Answer_Key#Clue
 {{</quiz>}}
