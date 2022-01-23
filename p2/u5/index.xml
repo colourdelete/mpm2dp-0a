@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quadratic Equations on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/</link>
+    <description>Recent content in Quadratic Equations on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 10:45:36 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p2/u5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discriminator</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/d/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u5/d/</guid>
+      <description>We cannot factor this using the methods we already know: $$sx^2+2x-1=0$$e We can use the quadratic formula to solve this: $$sx=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$e where the equation is in the form: $$sax^2+bx+c=0$$e .
+The x-coordinate of the vertex of a parabola in that form is $s\frac{-b}{2a}$e , and the equation of the AOS is $sx=\frac{-b}{2a}$e .</description>
+    </item>
+    
+    <item>
+      <title>Graphing</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/g/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u5/g/</guid>
+      <description>To graph quadratic equations, follow these steps:
+ Factor the equation to find the zeroes (x-intercepts) Find the AOS (take the mean of the two zeroes) Find the vertex (plug in the AOS) Find the y-intrcept (plug in $sx=0$e ) Draw the parabola through the points  Example  $$sy=x^2+6x+8$$e $$sy=(x+4)(x+2)$$e $$sx=-2$$e $$sx=-4$$e $$sy=(-3)^2+6(-3)+8$$e $$sy=-1$$e $$sx=0$$e $$sy=0-6(0)+8$$e $$sy=8$$e Therefore, the vertex is $s(-3,-8)$e  </description>
+    </item>
+    
+    <item>
+      <title>Minimum and Maximum</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/m/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u5/m/</guid>
+      <description> Note  Not MikuMikuDance!  The minimum and maximum points of a quadratic relation is its vertex
+For a quadratic relation in the form $$sy=a(x-h)^2+k$$e , the vertex is $s(h,k)$e and is also the maximum point of the parabola. The vertex is a minimum when $sa0$e and maximum when $sa</description>
+    </item>
+    
+    <item>
+      <title>Solve Problems</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/p/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u5/p/</guid>
+      <description>To determine an algebraic solution:
+ Define the variables Write an equation to model the situation Solve the equations (possibly using an appropriate method) Consider the allowable values of the unknown, and appropriately reject solutions if necessary Write a conclusion statement and the answer the original question  </description>
+    </item>
+    
+    <item>
+      <title>Solving by Factoring</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p2/u5/f/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p2/u5/f/</guid>
+      <description>To solve quadratic equations by factoring, get the GCF of the terms.
+Example  First, change to the form $s0=a$e : $$s9x^2-5=12x-5$$e $$s9x^2-12x=0$$e Then, get the GCF. $$s3x(3x-4)=0$$e $$s3x=0$$e $$sx=0$$e or, $$s3x-4=0$$e $$sx=\frac{4}{3}$$e  </description>
+    </item>
+    
+  </channel>
+</rss>

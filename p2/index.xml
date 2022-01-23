@@ -12,8 +12,8 @@
       <pubDate>Tue, 04 Jan 2022 14:50:35 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/clue/</guid>
-      <description>Quiz
- The quiz requires JavaScript to validate the answer(s).  Determine the mean of the two $sx$e values of the vertexes of $sy=x^2+3x+2$e , and $sy=-5x^2+45x-90$e , in the form $s\frac{a}{b}$e .   $sa$e  The SHA-256 hash of the answer is 7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451.   $sb$e  The SHA-256 hash of the answer is 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.   Final answer code: enter an answer  Explanation The vertex of the first equation is $s(\frac{-3}{2}, \frac{-1}{2}$e</description>
+      <description>Meta-Quiz clue
+ The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1a    1b    2a    2b     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
     </item>
     
   </channel>

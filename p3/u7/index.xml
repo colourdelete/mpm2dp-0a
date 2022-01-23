@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trigonometry of Acute Angles on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p3/u7/</link>
+    <description>Recent content in Trigonometry of Acute Angles on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 10:45:36 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p3/u7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cosine Law</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u7/cl/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u7/cl/</guid>
+      <description>The cosine law is as follows: $sa^2=b^2+c^2-2bc(cosA)$e .
+The cosine law can be used to find a side length from the two other sides and the angle between them.
+The proof is as follows: Assume a triangle $s\triangle ABC$e , where, $sh$e is a line from $sB$e to $sD$e (which is a point on $s\overline{AC}$e ) where, $s\angle BDC=\angle BDA=90^{\circ}$e .
+From the cosine ratio: $scosC=\frac{CD}{a}$e , or $sCS=acosC$e $sDA=b-acosC$e $sBD=asinC$e Using the pythegorean theorem, $sc^2=(BD)^2+(DA)^2$e , or $sc^2=(asinC)^2+(b-acosC)^2$e , or $sc^2=a^2+b^2-2abcosC$e .</description>
+    </item>
+    
+    <item>
+      <title>Sine Law</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u7/sl/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u7/sl/</guid>
+      <description>The sine law is as follows: $s\frac{a}{\sin{A}} \,=\, \frac{b}{\sin{B}} \,=\, \frac{c}{\sin{C}} \,=\, 2R$e , where $sa$e , $sb$e , and $sc$e , are the lengths of the sides of the triangle, and $s\alpha$e , $s\beta$e , and $s\gamma$e , are the opposite angles of the sides, and $sR$e is the radius of the triangle&amp;rsquo;s circumcircle.
+The sine law can be used to find the other sides of an acute triangle when two angles and a side are given.</description>
+    </item>
+    
+    <item>
+      <title>True Bearings</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u7/tb/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u7/tb/</guid>
+      <description>True bearings are written as angle°T, and are the same as turnign angle° clockwise from north.</description>
+    </item>
+    
+  </channel>
+</rss>

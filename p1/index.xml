@@ -12,8 +12,8 @@
       <pubDate>Sat, 01 Jan 2022 14:50:35 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p1/clue/</guid>
-      <description>Quiz
- The quiz requires JavaScript to validate the answer(s).  Determine $sM_{AB}$e where $sA(1, (\frac{2}{\sqrt{5}-\sqrt{3}}-\sqrt{3})^2)$e , and $sB(10, \frac{\sqrt{5}}{\sqrt{5}-\sqrt{19^0}+1})$e , in the form $sM_{AB}(\frac{a}{b}, \frac{c}{d})$e .   $sa$e  The SHA-256 hash of the answer is 4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8.   $sb$e  The SHA-256 hash of the answer is d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.   $sc$e  The SHA-256 hash of the answer is 4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce.   $sd$e  The SHA-256 hash of the answer is 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b.</description>
+      <description>Meta-Quiz clue
+ The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1a    1b    2     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
     </item>
     
   </channel>

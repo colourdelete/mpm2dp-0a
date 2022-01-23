@@ -7,12 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 04 Jan 2022 14:08:42 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p4/u9/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Addition and Subtraction</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/asr/</link>
+      <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/asr/</guid>
+      <description>To add rational expressions:
+ determine the common denominator, then express each fraction in the common denominator, then add the numerators, then simplify (if possible).  Example  $$s\frac{3a}{7b}\frac{5}{8b^2}$$e $$s\frac{24ab+35}{56b^2}; b\ne 0$$e  </description>
+    </item>
+    
+    <item>
       <title>Factorization of Polynomials</title>
       <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/factor/</link>
       <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/factor/</guid>
       <description> Example  $$sx^2-x-30$$e $$s=(x-6)(x+5)$$e  Example  $$sx^2-6x+9-4y^2$$e $$s=(x-3+2y)(x-3-2y)$$e  Example  $$s81-x^3$$e $$s=(9+x^2)(3+x)(3-x)$$e  </description>
+    </item>
+    
+    <item>
+      <title>Graphs of Rational Functions</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/grf/</link>
+      <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/grf/</guid>
+      <description>TL;DR: If a term is removed during simplification, then it becomes a hole, but if not it becoems an asymptote. (or, a restriction is added when it is removed)
+If a graph is restricted from simplification from factorization, a hole occurs at that point.
+Example  $$sg(x)=\frac{x^2+7x+12}{x+3}$$e
+$$sg(x)=x+4; x\ne-3$$e
+Since $sx$e cannot be $s-3$e , there is a hole in the line at $sx=-3$e .  But, asymptotes occur instead of holes if the restrictions are zeroes after simplification.</description>
+    </item>
+    
+    <item>
+      <title>Multiplication and Division</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p4/u9/mdr/</link>
+      <pubDate>Tue, 04 Jan 2022 16:09:21 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p4/u9/mdr/</guid>
+      <description>To multiply rational expressions:
+ factor the expression, then divide out common factors, then multiply the denominators (produce a GCF), then merge into a single rational expression.  To divide rational expressions, do the same as multiplying but use the reciprocal of the second one instead.
+Remember to add restrictions. Add restrictions right after or during when you simplify that part, and not after you finish the whole operation. This reduces mistakes.</description>
     </item>
     
     <item>

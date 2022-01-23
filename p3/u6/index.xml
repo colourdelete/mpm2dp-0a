@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trigonometry of Right Triangles on MPM2DP-0A Summative</title>
+    <link>https://nyiyui.ca/mpm2dp-0a/p3/u6/</link>
+    <description>Recent content in Trigonometry of Right Triangles on MPM2DP-0A Summative</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 10:45:36 -0500</lastBuildDate><atom:link href="https://nyiyui.ca/mpm2dp-0a/p3/u6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sine and Cosine Ratio</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u6/sc/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u6/sc/</guid>
+      <description>Similar to tangents, sines and cosines can be defined as ratios as well.
+$$ssin\theta=\frac{opposite}{hypotenuse}$$e $$scos\theta=\frac{adjacent}{hypotenuse}$$e $$stan\theta=\frac{opposite}{adjacent}$$e A easy way to remember this is using &amp;ldquo;soh-cah-toa&amp;rdquo;. &amp;ldquo;soh&amp;rdquo; meaning &amp;ldquo;sin = opposite / hypotenuse&amp;rdquo;, and so on.
+Remember that you can only use these when they involve right triangles.
+You can use these to find:
+ an angle from two side lengths, or one side length from another side length and one acute angle  Example  Determine the three primary trig ratios for $s\angle C$e , where $s\overline{AB}=12$e , $s\overline{BC}=15$e , and $s\overline{CA}=9$e , for $s\triangle ABC$e .</description>
+    </item>
+    
+    <item>
+      <title>Tangent Ratio</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u6/tr/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u6/tr/</guid>
+      <description>The tangent of an angle is the ratio of the opposite side to the one adjacent to the angle. In other words, $stan\theta =\frac{o}{a}$e . Figure 
+ Description  geometric definition of the tangent of an angle (view original)  Credit  Own work Tom harrison  License  cc-by-sa-3.0     Example  Determine $stan\angle PQR$e , where, $s\overline{QR}=10$e , $s\overline{QP}=8$e , $s\angle RQP=90$e , and $s\triangle PQR$e .</description>
+    </item>
+    
+    <item>
+      <title>Trigonometry of Right Triangles</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p3/u6/st/</link>
+      <pubDate>Tue, 04 Jan 2022 11:11:56 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p3/u6/st/</guid>
+      <description>Congruent figures have the same size and shape.
+Similar figures have the same shapebut different sizes.
+The corresponding angles of similar figures are equal, and the ratios of the corresponding sides are equal, and is defined as the scale factor $sk$e .
+Simiarly, the squares of the factors is the ratio of the areas.
+The $s\sim$e is used to denote similarity.</description>
+    </item>
+    
+  </channel>
+</rss>

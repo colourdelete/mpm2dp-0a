@@ -1076,6 +1076,7 @@ aside {
 .w3-round, aside, .tag, .position, .btn, .note,
 .eg,
 .quiz,
+.metaquiz,
 .box,
 figure,
 .w3-round-medium {
@@ -1137,9 +1138,10 @@ figure,
   font-size: 110%;
 }
 
-.w3-card, aside, .note,
+.w3-card, .note,
 .eg,
 .quiz,
+.metaquiz,
 .box,
 figure,
 .w3-card-2 {
@@ -1415,6 +1417,7 @@ figure,
 .w3-margin, .note,
 .eg,
 .quiz,
+.metaquiz,
 .box,
 figure {
   margin: 16px !important;
@@ -1443,6 +1446,7 @@ figure {
 .w3-padding, nav section, .meta, article#main, .note,
 .eg,
 .quiz,
+.metaquiz,
 .box,
 figure, footer {
   padding: 8px 16px !important;
@@ -1630,6 +1634,7 @@ figure, footer {
 .w3-sand, .note > figcaption.desc,
 .eg > figcaption.desc,
 .quiz > figcaption.desc,
+.metaquiz > figcaption.desc,
 .box > figcaption.desc,
 figure > figcaption.desc,
 .w3-hover-sand:hover {
@@ -1701,6 +1706,7 @@ figure > figcaption.desc,
 .w3-pale-yellow, .position, .note.warn,
 .eg.warn,
 .quiz.warn,
+.metaquiz.warn,
 .box.warn,
 figure.warn,
 .w3-hover-pale-yellow:hover {
@@ -1751,7 +1757,7 @@ figure.warn,
   color: #607d8b !important;
 }
 
-.w3-text-green, .position .section,
+.w3-text-green, span[role=status].ok, .position .section,
 .w3-hover-text-green:hover {
   color: #4caf50 !important;
 }
@@ -1801,7 +1807,7 @@ figure.warn,
   color: #673ab7 !important;
 }
 
-.w3-text-red,
+.w3-text-red, span[role=status].nok,
 .w3-hover-text-red:hover {
   color: #f44336 !important;
 }
@@ -1834,6 +1840,7 @@ figure.warn,
 .w3-text-grey,
 .w3-hover-text-grey:hover,
 .w3-text-gray,
+span[role=status]:not(.ok):not(.nok),
 .w3-hover-text-gray:hover {
   color: #757575 !important;
 }
@@ -2019,6 +2026,16 @@ figure.warn,
   background-image: url("/static/orange.jpg");
 }
 
+span[role=status]:not(.ok):not(.nok):before {
+  content: "pending";
+}
+span[role=status].nok:before {
+  content: "wrong";
+}
+span[role=status].ok:before {
+  content: "correct";
+}
+
 nav ul {
   list-style: none;
 }
@@ -2036,6 +2053,15 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+.note.metaquiz,
+.eg.metaquiz,
+.quiz.metaquiz,
+.metaquiz.metaquiz,
+.box.metaquiz,
+figure.metaquiz {
+  background-color: #bdf;
 }
 
 /*# sourceMappingURL=index.css.map */

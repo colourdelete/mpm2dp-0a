@@ -9,6 +9,32 @@
   background-image: url("/static/orange.jpg");
 }
 
+span[role="status"] {
+  &:not(.ok):not(.nok) {
+    @extend .w3-text-gray;
+  
+    &:before {
+      content: "pending";
+    }
+  }
+
+  &.nok {
+    @extend .w3-text-red;
+  
+    &:before {
+      content: "wrong";
+    }
+  }
+
+  &.ok {
+    @extend .w3-text-green;
+  
+    &:before {
+      content: "correct";
+    }
+  }
+}
+
 nav {
   & ul {
     list-style: none;
@@ -34,7 +60,6 @@ nav {
 
 aside {
   @extend .w3-quarter;
-  @extend .w3-card;
   @extend .w3-round;
 }
 
@@ -84,6 +109,7 @@ a {
 .note,
 .eg,
 .quiz,
+.metaquiz,
 .box,
 figure {
   @extend .w3-card;
@@ -101,6 +127,9 @@ figure {
   }
   &.quiz {
     @extend .w3-pale-red;
+  }
+  &.metaquiz {
+    background-color: #bdf;
   }
   & > figcaption {
     &.desc {
