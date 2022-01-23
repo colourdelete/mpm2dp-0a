@@ -1,0 +1,35 @@
+{{$id := printf "%s%d" (delimit (shuffle (seq 1 9)) "") now.UnixNano}} {{with (.Get "id")}}{{$id = .}}{{end}}
+{{$ids := (split (.Get "ids") " ")}}
+{{$digests := (split (.Get "digests") " ")}}
+<div id="metaquiz-{{$id}}" class="metaquiz">
+  <a href="#metaquiz-{{$id}}"><b>Meta-Quiz {{$id}}</b></a><br />
+  <noscript> The meta-quiz requires JavaScript to generate the URL of the next page.</noscript>
+  <p>
+    Complete the listed quizzes to continue to the next page.
+  </p>
+  <ol>
+    {{range $i, $depId := $ids}}
+    <li>
+      <a href="#quiz-{{$depId}}">{{$depId}}</a>
+      <span id="metaquiz-{{$id}}-s{{$i}}" role="status"></span>
+    </li>
+    {{end}}
+  </ol>
+  <p>
+    Status should be automatically updated when a quiz answer is changed.
+    <input id="metaquiz-{{$id}}-reload" type="button" value="Reload" /> if necessary.
+  </p>
+  <p>
+    Final answer code: <code><span id="metaquiz-{{$id}}-total"></span></code>
+  </p>
+  <p id="metaquiz-{{$id}}-next" style="display: hidden;">
+    All answers of the quizzes are correct; go to the <a id="metaquiz-{{$id}}-a" href="">next page</a>.
+  </p>
+  <script type="module">
+    import { metaQuiz } from "/mpm2dp-0a/js/quiz.js";
+
+    const page = '{{$.Page.Permalink}}';
+
+    metaQuiz({{$id}}, {{$ids}}, {{$digests}}, page);
+  </script>
+</div>

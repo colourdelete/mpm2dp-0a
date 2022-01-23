@@ -1,0 +1,143 @@
+@use "w3.css";
+
+:root {
+  --primary: #08d;
+  --secondary: #000;
+}
+
+.orange {
+  background-image: url("/static/orange.jpg");
+}
+
+span[role="status"] {
+  &:not(.ok):not(.nok) {
+    @extend .w3-text-gray;
+  
+    &:before {
+      content: "pending";
+    }
+  }
+
+  &.nok {
+    @extend .w3-text-red;
+  
+    &:before {
+      content: "wrong";
+    }
+  }
+
+  &.ok {
+    @extend .w3-text-green;
+  
+    &:before {
+      content: "correct";
+    }
+  }
+}
+
+nav {
+  & ul {
+    list-style: none;
+  }
+  aside & {
+    @extend .w3-bar-block;
+  }
+  & section {
+    @extend .w3-padding;
+  }
+}
+
+.meta {
+  @extend .w3-padding;
+}
+
+.item {
+  @extend .w3-bar-item;
+  &.current {
+    font-weight: bold;
+  }
+}
+
+aside {
+  @extend .w3-quarter;
+  @extend .w3-round;
+}
+
+article#main {
+  @extend .w3-rest;
+  @extend .w3-padding;
+}
+
+.tag {
+  @extend .w3-tag;
+  @extend .w3-round;
+}
+
+.position {
+  @extend .tag;
+  @extend .w3-pale-yellow;
+
+  font-weight: normal !important;
+  & .unit {
+    @extend .w3-text-deep-purple;
+  }
+  & .lesson {
+    @extend .w3-text-purple;
+  }
+  & .chapter {
+    @extend .w3-text-teal;
+  }
+  & .section {
+    @extend .w3-text-green;
+  }
+}
+
+.btn {
+  @extend .w3-button;
+  @extend .w3-round;
+}
+
+a {
+  color: var(--primary);
+  transition: 0.5s;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.note,
+.eg,
+.quiz,
+.metaquiz,
+.box,
+figure {
+  @extend .w3-card;
+  @extend .w3-round;
+  @extend .w3-padding;
+  @extend .w3-margin;
+  &.note {
+    @extend .w3-khaki;
+  }
+  &.warn {
+    @extend .w3-pale-yellow;
+  }
+  &.eg {
+    @extend .w3-lime;
+  }
+  &.quiz {
+    @extend .w3-pale-red;
+  }
+  &.metaquiz {
+    background-color: #bdf;
+  }
+  & > figcaption {
+    &.desc {
+      @extend .w3-sand;
+    }
+  }
+}
+
+footer {
+  @extend .w3-padding;
+}

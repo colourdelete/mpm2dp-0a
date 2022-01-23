@@ -1,0 +1,32 @@
+[wordCount]
+  other = "{{.}}言葉"
+
+[readingTime]
+  other = "読書時間：{{.Count}}分"
+
+[page_prev]
+  other = "← {{.Title}}"
+
+[page_next]
+  other = "→ {{.Title}}"
+
+[page_up]
+  other = "↑ {{.Title}}"
+
+[page_down]
+  other = "↓ {{.Title}}"
+
+[buildInfo]
+  other = '''
+此の頁は<a href="https://gohugo.io">Hugo</a>を使って作成されました。
+コミット：<abbr title="{{.GitInfo.Hash}}">{{.GitInfo.AbbreviatedHash}}</abbr>
+'''
+
+[translations]
+  other = "他言語版"
+
+[explanation]
+  other = "解説"
+
+[mark]
+  other = "{{.}} 点"
