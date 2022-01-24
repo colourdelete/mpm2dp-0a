@@ -6,6 +6,8 @@ enableGitInfo = true
 
 defaultContentLanguage = 'en-ca'
 
+disableKinds = [ "sitemap", "RSS" ]
+
 [languages]
   [languages.en-ca]
     title = 'MPM2DP-0A Summative'
@@ -15,7 +17,7 @@ defaultContentLanguage = 'en-ca'
     languageName = '日本語'
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = [ "HTML" ]
 
 [params]
   mathjax = true
