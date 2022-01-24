@@ -88,7 +88,7 @@ Two polynomial expressions (includes functions) are equivalent if:
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p2/clue/</guid>
       <description>Meta-Quiz clue
- The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1a    1b    2a    2b     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
+ The meta-quiz requires JavaScript to generate the URL of the next page.   1a    1b    2a    2b     Complete the listed quizzes to continue to the next part.  Status should be automatically updated when a quiz answer is changed. if necessary.  Sum Hash   All answers of the quizzes are ; you can go to the next part.</description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@ Two polynomial expressions (includes functions) are equivalent if:
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p3/clue/</guid>
       <description>Meta-Quiz clue
- The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1    2a    2b     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
+ The meta-quiz requires JavaScript to generate the URL of the next page.   1    2a    2b     Complete the listed quizzes to continue to the next part.  Status should be automatically updated when a quiz answer is changed. if necessary.  Sum Hash   All answers of the quizzes are ; you can go to the next part.</description>
     </item>
     
     <item>
@@ -360,7 +360,20 @@ The $s\sim$e is used to denote similarity.</description>
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p1/clue/</guid>
       <description>Meta-Quiz clue
- The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1a    1b    2     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
+ The meta-quiz requires JavaScript to generate the URL of the next page.   1a    1b    2     Complete the listed quizzes to continue to the next part.  Status should be automatically updated when a quiz answer is changed. if necessary.  Sum Hash   All answers of the quizzes are ; you can go to the next part.</description>
+    </item>
+    
+    <item>
+      <title>Practice</title>
+      <link>https://nyiyui.ca/mpm2dp-0a/p1/practice/</link>
+      <pubDate>Sat, 01 Jan 2022 14:50:35 -0500</pubDate>
+      
+      <guid>https://nyiyui.ca/mpm2dp-0a/p1/practice/</guid>
+      <description>Question 1 Depends on:
+  p1/u2/t    p1/u2/vt    $s\triangle ABC$e has vertices $sA(0, 0)$e , $sB(22, 13)$e , and $sC(14, 14)$e .
+Note: truncate ($s(\lambda x.\lfloor x\rfloor)$e ) to 5 decimal digits and remove prefix and suffix zeroes. For example, $s\frac{1}{3}$e would become $s0.33333$e .
+Question 1c (bonus) Quiz 1c (0 marks)
+ The quiz requires JavaScript to automatically validate the answer(s).  Determine the centroid of $s\triangle ABC$e , in the form $sG(\frac{a}{b}, \frac{c}{d})$e , where $sG$e is the centroid.</description>
     </item>
     
     <item>
@@ -474,7 +487,7 @@ Example  Rationalize $\frac{1}{\sqrt{12}}-\frac{1}{\sqrt[3]{27}}$: $$\frac{1}{2\
       
       <guid>https://nyiyui.ca/mpm2dp-0a/p4/clue/</guid>
       <description>Meta-Quiz clue
- The meta-quiz requires JavaScript to generate the URL of the next page.  Complete the listed quizzes to continue to the next page.   1a    1b    1c    1d    2     Status should be automatically updated when a quiz answer is changed. if necessary.  Final answer code:  All answers of the quizzes are correct; go to the next page.</description>
+ The meta-quiz requires JavaScript to generate the URL of the next page.   1a    1b    1c    1d    2     Complete the listed quizzes to continue to the next part.  Status should be automatically updated when a quiz answer is changed. if necessary.  Sum Hash   All answers of the quizzes are ; you can go to the next part.</description>
     </item>
     
     <item>

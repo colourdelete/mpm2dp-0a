@@ -58,6 +58,7 @@ function quizzes(es, target, id, page) {
     const digest = await digestMessage(total);
     localStorage.setItem(key, digest);
     target.innerText = digest;
+    target.dispatchEvent(new Event('update'));
     saved = false;
   };
 }
@@ -67,6 +68,7 @@ function metaQuiz(id, depIds, depDigests, page) {
   const a = document.getElementById(`metaquiz-${id}-a`);
   const target = document.getElementById(`metaquiz-${id}-total`);
   const handler = async () => {
+	console.log(`metaquiz-${id}-total`);
     let allCorrect = true;
     let total = '';
     for (let [i, depId] of depIds.entries()) {
@@ -89,8 +91,8 @@ function metaQuiz(id, depIds, depDigests, page) {
   const reloadBtn = document.getElementById(`metaquiz-${id}-reload`);
   reloadBtn.addEventListener('click', handler);
   for (let depId of depIds) {
-    const es = document.querySelectorAll(`#quiz-${depId} input`);
-    es.forEach((e) => e.addEventListener('input', handler));
+    const es = document.querySelectorAll(`#quiz-${depId} span[role="status"]`);
+    es.forEach((e) => e.addEventListener('update', handler));
   }
   handler();
 }
