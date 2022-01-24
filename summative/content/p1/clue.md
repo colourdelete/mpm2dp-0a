@@ -24,7 +24,7 @@ Note: truncate ({{<mi>}}(\lambda x.\lfloor x\rfloor){{</mi>}}) to 5 decimal digi
 
 ## Question 1a
 
-{{<quiz id="1a" mark="5">}}
+{{<quiz id="1a" mark="4">}}
 Determine the circumcentre of {{<mi>}}\triangle ABC{{</mi>}},
 in the form {{<mi>}}O(\frac{a}{b}, \frac{c}{d}){{</mi>}},
 where
@@ -70,59 +70,6 @@ $sd$e
 
 
 https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Part_1_Question_1b
-{{< /quiz >}}
-
-## Question 1c (bonus)
-
-{{<quiz id="1c" mark="0">}}
-Determine the centroid of {{<mi>}}\triangle ABC{{</mi>}},
-in the form {{<mi>}}G(\frac{a}{b}, \frac{c}{d}){{</mi>}},
-where
-{{<mi>}}G{{</mi>}} is the centroid.
-
-$sa$e
-12
-
-$sb$e
-1
-
-$sc$e
-9
-
-$sd$e
-1
-
-
-
-https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Part_1_Question_1c
-{{< /quiz >}}
-
-## Question 1d (bonus)
-
-{{<quiz id="1d" mark="0">}}
-Determine the Euler line of {{<mi>}}\triangle ABC{{</mi>}},
-in the form {{<mi>}}y=mx+b{{</mi>}} (point-slope form),
-where
-{{<mi>}}m=\frac{c}{d}{{</mi>}},
-{{<mi>}}b=\frac{e}{f}{{</mi>}},
-{{<mi>}}d\gt 0{{</mi>}},
-{{<mi>}}f\gt 0{{</mi>}}.
-
-$sc$e
--199
-
-$sd$e
-73
-
-$se$e
-3045
-
-$sf$e
-73
-
-
-
-https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Part_1_Question_1d
 {{< /quiz >}}
 
 ## Question 2

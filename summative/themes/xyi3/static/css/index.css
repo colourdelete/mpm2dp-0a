@@ -1757,7 +1757,7 @@ figure.warn,
   color: #607d8b !important;
 }
 
-.w3-text-green, span[role=status].ok, .position .section,
+.w3-text-green, span[role=status].ok, .status.ok, .position .section,
 .w3-hover-text-green:hover {
   color: #4caf50 !important;
 }
@@ -1807,7 +1807,7 @@ figure.warn,
   color: #673ab7 !important;
 }
 
-.w3-text-red, span[role=status].nok,
+.w3-text-red, span[role=status].nok, .status.nok,
 .w3-hover-text-red:hover {
   color: #f44336 !important;
 }
@@ -1841,6 +1841,7 @@ figure.warn,
 .w3-hover-text-grey:hover,
 .w3-text-gray,
 span[role=status]:not(.ok):not(.nok),
+.status:not(.ok):not(.nok),
 .w3-hover-text-gray:hover {
   color: #757575 !important;
 }
@@ -2026,13 +2027,13 @@ span[role=status]:not(.ok):not(.nok),
   background-image: url("/static/orange.jpg");
 }
 
-span[role=status]:not(.ok):not(.nok):before {
+span[role=status]:not(.ok):not(.nok):before, .status:not(.ok):not(.nok):before {
   content: "pending";
 }
-span[role=status].nok:before {
+span[role=status].nok:before, .status.nok:before {
   content: "wrong";
 }
-span[role=status].ok:before {
+span[role=status].ok:before, .status.ok:before {
   content: "correct";
 }
 

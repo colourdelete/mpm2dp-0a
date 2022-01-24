@@ -4,9 +4,6 @@
 <div id="metaquiz-{{$id}}" class="metaquiz">
   <a href="#metaquiz-{{$id}}"><b>Meta-Quiz {{$id}}</b></a><br />
   <noscript> The meta-quiz requires JavaScript to generate the URL of the next page.</noscript>
-  <p>
-    Complete the listed quizzes to continue to the next page.
-  </p>
   <ol>
     {{range $i, $depId := $ids}}
     <li>
@@ -16,14 +13,18 @@
     {{end}}
   </ol>
   <p>
+    Complete the listed quizzes to continue to the next part.
+  </p>
+  <p>
     Status should be automatically updated when a quiz answer is changed.
     <input id="metaquiz-{{$id}}-reload" type="button" value="Reload" /> if necessary.
   </p>
-  <p>
-    Final answer code: <code><span id="metaquiz-{{$id}}-total"></span></code>
-  </p>
+  <details>
+    <summary>Sum Hash</summary>
+    <code><span id="metaquiz-{{$id}}-total"></span></code>
+  </details>
   <p id="metaquiz-{{$id}}-next" style="display: hidden;">
-    All answers of the quizzes are correct; go to the <a id="metaquiz-{{$id}}-a" href="">next page</a>.
+  All answers of the quizzes are <span class="status ok"></span>; you can go to the <a id="metaquiz-{{$id}}-a" href="">next part</a>.
   </p>
   <script type="module">
     import { metaQuiz } from "/mpm2dp-0a/js/quiz.js";

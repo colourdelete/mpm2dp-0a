@@ -1,8 +1,0 @@
-<footer>
-	{{with .Site.Copyright}}{{. |markdownify}}{{end}}
-	{{with .GitInfo}}
-	<section id="build-info">
-		{{i18n "buildInfo" $ | safeHTML}}
-	</section>
-	{{end}}
-</footer>

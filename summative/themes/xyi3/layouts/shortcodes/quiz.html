@@ -8,7 +8,6 @@
   <a href="#quiz-{{$id}}"><b>Quiz {{$id}}</b></a>{{if ne $mark -1}} ({{i18n "mark" $mark}}){{end}}<br />
   <noscript> The quiz requires JavaScript to automatically validate the answer(s). </noscript>
   {{index $qas 0 | markdownify}}
-  <br />
   <ol>
     {{range $i, $qa := $qas}}
     {{if ne $i 0}}
@@ -27,12 +26,14 @@
     {{end}}
     {{end}}
   </ol>
-  Final answer code: <code><span id="quiz-{{$id}}-total" role="status"></span></code>
+  <details>
+    <summary>Sum Hash</summary>
+    <code><span id="quiz-{{$id}}-total"></span></code>
+  </details>
   {{if ne $expl nil}}
-    <details>
-    <summary>{{i18n "explanation"}}</summary>
-      {{$expl | markdownify}}
-    </details>
+  <p>
+    <a href="{{trim $expl "\n" | safeURL}}" target="_blank">Explanation</a>
+  </p>
   {{end}}
   <script type="module">
     import { quiz, quizzes } from "/mpm2dp-0a/js/quiz.js";
