@@ -14,7 +14,7 @@ span[role="status"], .status {
     @extend .w3-text-gray;
   
     &:before {
-      content: "pending";
+      content: "waiting for answer";
     }
   }
 
