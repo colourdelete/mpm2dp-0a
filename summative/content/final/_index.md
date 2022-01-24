@@ -12,4 +12,6 @@ list = false
 
 You're finished!
 
+Congratulations!
+
 [Explanations](https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key) are available if you ask for me.

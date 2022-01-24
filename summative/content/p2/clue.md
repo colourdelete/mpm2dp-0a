@@ -9,6 +9,7 @@ draft = false
 ## Question 1a
 
 {{<quiz id="1a" mark="4">}}
+Sakuta is trying to do some homework, but Mai isn't willing to help him this time.
 Determine the mean of the two $sx$e values of the vertexes of 
 {{<mi>}}y=x^2+3x+2{{</mi>}}, and
 {{<mi>}}y=-5x^2+45x-90{{</mi>}},
@@ -28,9 +29,8 @@ https://kiki.nyiyui.ca/index.php/MPM2DP-0A_Summative_Answer_Key#Part_2_Question_
 ## Question 1b
 
 {{<quiz id="1b" mark="4">}}
-Consider
-{{<mi>}}y=t=0.5(x+1)^2-5{{</mi>}}.
-
+Answer the following for this equation:
+{{<mi>}}y=t=0.5(x+1)^2-5{{</mi>}}
 Direction of opening (either <code>up</code> or <code>down</code>)
 up
 
